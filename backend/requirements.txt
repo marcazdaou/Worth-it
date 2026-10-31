@@ -1,0 +1,7 @@
+# The salary model was trained with these exact versions (pickles are version-specific),
+# so numpy, pandas and scikit-learn must match Job-Market-Analysis/requirements.txt.
+fastapi==0.120.0
+uvicorn[standard]==0.38.0
+numpy==2.4.2
+pandas==3.0.3
+scikit-learn==1.8.0
