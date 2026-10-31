@@ -1,0 +1,9718 @@
+{
+ "source": "Job-Market-Analysis/data/jobs_clean.parquet",
+ "total_postings": 394300,
+ "families": {
+  "Consulting & Strategy": {
+   "postings": 6826,
+   "salaried": 1180,
+   "median_salary": 151200,
+   "top_skills": [
+    {
+     "skill": "project-management",
+     "share": 0.251,
+     "median_salary": 132500
+    },
+    {
+     "skill": "communication",
+     "share": 0.224,
+     "median_salary": 162500
+    },
+    {
+     "skill": "sales",
+     "share": 0.151,
+     "median_salary": 155000
+    },
+    {
+     "skill": "excel",
+     "share": 0.133,
+     "median_salary": 130000
+    },
+    {
+     "skill": "product-management",
+     "share": 0.114,
+     "median_salary": 177500
+    },
+    {
+     "skill": "recruiting",
+     "share": 0.109,
+     "median_salary": 159600
+    },
+    {
+     "skill": "customer-success",
+     "share": 0.092,
+     "median_salary": 157500
+    },
+    {
+     "skill": "sql",
+     "share": 0.086,
+     "median_salary": 140000
+    },
+    {
+     "skill": "data-science",
+     "share": 0.069,
+     "median_salary": 145100
+    },
+    {
+     "skill": "python",
+     "share": 0.069,
+     "median_salary": 141500
+    },
+    {
+     "skill": "llm",
+     "share": 0.061,
+     "median_salary": 175000
+    },
+    {
+     "skill": "crm",
+     "share": 0.056,
+     "median_salary": 140000
+    },
+    {
+     "skill": "power-bi",
+     "share": 0.054,
+     "median_salary": 130000
+    },
+    {
+     "skill": "aws",
+     "share": 0.053,
+     "median_salary": 160000
+    },
+    {
+     "skill": "salesforce",
+     "share": 0.047,
+     "median_salary": 162800
+    }
+   ],
+   "by_seniority": {
+    "Director / Executive": {
+     "postings": 620,
+     "salaried": 223,
+     "median_salary": 212500,
+     "top_skills": [
+      {
+       "skill": "communication",
+       "share": 0.506,
+       "median_salary": 216000
+      },
+      {
+       "skill": "sales",
+       "share": 0.326,
+       "median_salary": 212500
+      },
+      {
+       "skill": "product-management",
+       "share": 0.226,
+       "median_salary": 226800
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.176,
+       "median_salary": 225000
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.156,
+       "median_salary": 212500
+      },
+      {
+       "skill": "project-management",
+       "share": 0.152,
+       "median_salary": 200000
+      },
+      {
+       "skill": "financial-analysis",
+       "share": 0.087,
+       "median_salary": null
+      },
+      {
+       "skill": "excel",
+       "share": 0.081,
+       "median_salary": 150000
+      },
+      {
+       "skill": "llm",
+       "share": 0.076,
+       "median_salary": 200000
+      },
+      {
+       "skill": "crm",
+       "share": 0.074,
+       "median_salary": null
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.068,
+       "median_salary": null
+      },
+      {
+       "skill": "salesforce",
+       "share": 0.063,
+       "median_salary": 204500
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.047,
+       "median_salary": null
+      },
+      {
+       "skill": "data-science",
+       "share": 0.037,
+       "median_salary": null
+      },
+      {
+       "skill": "accounting",
+       "share": 0.034,
+       "median_salary": null
+      }
+     ]
+    },
+    "Entry / Junior": {
+     "postings": 434,
+     "salaried": 79,
+     "median_salary": 77900,
+     "top_skills": [
+      {
+       "skill": "project-management",
+       "share": 0.329,
+       "median_salary": 55000
+      },
+      {
+       "skill": "excel",
+       "share": 0.177,
+       "median_salary": null
+      },
+      {
+       "skill": "sql",
+       "share": 0.134,
+       "median_salary": null
+      },
+      {
+       "skill": "communication",
+       "share": 0.124,
+       "median_salary": null
+      },
+      {
+       "skill": "sales",
+       "share": 0.115,
+       "median_salary": null
+      },
+      {
+       "skill": "python",
+       "share": 0.104,
+       "median_salary": null
+      },
+      {
+       "skill": "data-science",
+       "share": 0.074,
+       "median_salary": null
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.067,
+       "median_salary": null
+      },
+      {
+       "skill": "java",
+       "share": 0.067,
+       "median_salary": null
+      },
+      {
+       "skill": "power-bi",
+       "share": 0.065,
+       "median_salary": null
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.06,
+       "median_salary": null
+      },
+      {
+       "skill": "crm",
+       "share": 0.055,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.041,
+       "median_salary": null
+      },
+      {
+       "skill": "accounting",
+       "share": 0.041,
+       "median_salary": null
+      },
+      {
+       "skill": "salesforce",
+       "share": 0.039,
+       "median_salary": null
+      }
+     ]
+    },
+    "Mid / Unspecified": {
+     "postings": 3491,
+     "salaried": 442,
+     "median_salary": 140000,
+     "top_skills": [
+      {
+       "skill": "project-management",
+       "share": 0.224,
+       "median_salary": 131500
+      },
+      {
+       "skill": "communication",
+       "share": 0.176,
+       "median_salary": 145400
+      },
+      {
+       "skill": "excel",
+       "share": 0.145,
+       "median_salary": 121700
+      },
+      {
+       "skill": "product-management",
+       "share": 0.099,
+       "median_salary": 159700
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.098,
+       "median_salary": 140400
+      },
+      {
+       "skill": "sales",
+       "share": 0.095,
+       "median_salary": 132500
+      },
+      {
+       "skill": "sql",
+       "share": 0.088,
+       "median_salary": 140000
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.086,
+       "median_salary": 125000
+      },
+      {
+       "skill": "python",
+       "share": 0.078,
+       "median_salary": 140000
+      },
+      {
+       "skill": "data-science",
+       "share": 0.063,
+       "median_salary": 120800
+      },
+      {
+       "skill": "sap",
+       "share": 0.058,
+       "median_salary": null
+      },
+      {
+       "skill": "crm",
+       "share": 0.058,
+       "median_salary": 102500
+      },
+      {
+       "skill": "power-bi",
+       "share": 0.058,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.056,
+       "median_salary": 145400
+      },
+      {
+       "skill": "aws",
+       "share": 0.055,
+       "median_salary": 125000
+      }
+     ]
+    },
+    "Principal / Staff": {
+     "postings": 273,
+     "salaried": 61,
+     "median_salary": 186200,
+     "top_skills": [
+      {
+       "skill": "project-management",
+       "share": 0.495,
+       "median_salary": 178500
+      },
+      {
+       "skill": "sales",
+       "share": 0.297,
+       "median_salary": null
+      },
+      {
+       "skill": "product-management",
+       "share": 0.201,
+       "median_salary": null
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.194,
+       "median_salary": null
+      },
+      {
+       "skill": "communication",
+       "share": 0.165,
+       "median_salary": 162500
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.15,
+       "median_salary": null
+      },
+      {
+       "skill": "javascript",
+       "share": 0.11,
+       "median_salary": null
+      },
+      {
+       "skill": "robotics",
+       "share": 0.095,
+       "median_salary": null
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.084,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.073,
+       "median_salary": null
+      },
+      {
+       "skill": "sql",
+       "share": 0.07,
+       "median_salary": null
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.066,
+       "median_salary": null
+      },
+      {
+       "skill": "aws",
+       "share": 0.062,
+       "median_salary": null
+      },
+      {
+       "skill": "excel",
+       "share": 0.051,
+       "median_salary": null
+      },
+      {
+       "skill": "gcp",
+       "share": 0.044,
+       "median_salary": null
+      }
+     ]
+    },
+    "Senior / Lead": {
+     "postings": 2008,
+     "salaried": 375,
+     "median_salary": 150000,
+     "top_skills": [
+      {
+       "skill": "project-management",
+       "share": 0.278,
+       "median_salary": 133200
+      },
+      {
+       "skill": "communication",
+       "share": 0.25,
+       "median_salary": 150000
+      },
+      {
+       "skill": "sales",
+       "share": 0.182,
+       "median_salary": 136200
+      },
+      {
+       "skill": "excel",
+       "share": 0.132,
+       "median_salary": 130000
+      },
+      {
+       "skill": "product-management",
+       "share": 0.112,
+       "median_salary": 170000
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.106,
+       "median_salary": 150000
+      },
+      {
+       "skill": "data-science",
+       "share": 0.095,
+       "median_salary": 145100
+      },
+      {
+       "skill": "sql",
+       "share": 0.095,
+       "median_salary": 140000
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.091,
+       "median_salary": 150000
+      },
+      {
+       "skill": "llm",
+       "share": 0.068,
+       "median_salary": 176000
+      },
+      {
+       "skill": "python",
+       "share": 0.067,
+       "median_salary": 145100
+      },
+      {
+       "skill": "aws",
+       "share": 0.065,
+       "median_salary": 155000
+      },
+      {
+       "skill": "power-bi",
+       "share": 0.062,
+       "median_salary": null
+      },
+      {
+       "skill": "crm",
+       "share": 0.054,
+       "median_salary": 137500
+      },
+      {
+       "skill": "azure",
+       "share": 0.054,
+       "median_salary": null
+      }
+     ]
+    }
+   }
+  },
+  "Customer Success & Support": {
+   "postings": 7881,
+   "salaried": 1358,
+   "median_salary": 120600,
+   "top_skills": [
+    {
+     "skill": "customer-success",
+     "share": 0.387,
+     "median_salary": 127500
+    },
+    {
+     "skill": "communication",
+     "share": 0.193,
+     "median_salary": 132400
+    },
+    {
+     "skill": "project-management",
+     "share": 0.154,
+     "median_salary": 120000
+    },
+    {
+     "skill": "excel",
+     "share": 0.109,
+     "median_salary": 100000
+    },
+    {
+     "skill": "crm",
+     "share": 0.103,
+     "median_salary": 104100
+    },
+    {
+     "skill": "recruiting",
+     "share": 0.094,
+     "median_salary": 120000
+    },
+    {
+     "skill": "product-management",
+     "share": 0.093,
+     "median_salary": 148400
+    },
+    {
+     "skill": "salesforce",
+     "share": 0.08,
+     "median_salary": 109100
+    },
+    {
+     "skill": "sql",
+     "share": 0.076,
+     "median_salary": 116900
+    },
+    {
+     "skill": "python",
+     "share": 0.056,
+     "median_salary": 141200
+    },
+    {
+     "skill": "aws",
+     "share": 0.043,
+     "median_salary": 141300
+    },
+    {
+     "skill": "azure",
+     "share": 0.041,
+     "median_salary": 142500
+    },
+    {
+     "skill": "llm",
+     "share": 0.039,
+     "median_salary": 148200
+    },
+    {
+     "skill": "linux",
+     "share": 0.039,
+     "median_salary": 127400
+    },
+    {
+     "skill": "sales",
+     "share": 0.031,
+     "median_salary": 137000
+    }
+   ],
+   "by_seniority": {
+    "Director / Executive": {
+     "postings": 265,
+     "salaried": 96,
+     "median_salary": 200000,
+     "top_skills": [
+      {
+       "skill": "customer-success",
+       "share": 0.672,
+       "median_salary": 205000
+      },
+      {
+       "skill": "communication",
+       "share": 0.525,
+       "median_salary": 215000
+      },
+      {
+       "skill": "product-management",
+       "share": 0.283,
+       "median_salary": 210500
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.211,
+       "median_salary": 220200
+      },
+      {
+       "skill": "project-management",
+       "share": 0.204,
+       "median_salary": 177500
+      },
+      {
+       "skill": "salesforce",
+       "share": 0.155,
+       "median_salary": null
+      },
+      {
+       "skill": "excel",
+       "share": 0.125,
+       "median_salary": null
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.102,
+       "median_salary": null
+      },
+      {
+       "skill": "crm",
+       "share": 0.087,
+       "median_salary": null
+      },
+      {
+       "skill": "sales",
+       "share": 0.079,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.053,
+       "median_salary": null
+      },
+      {
+       "skill": "hubspot",
+       "share": 0.049,
+       "median_salary": null
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.045,
+       "median_salary": null
+      },
+      {
+       "skill": "marketing",
+       "share": 0.038,
+       "median_salary": null
+      },
+      {
+       "skill": "security",
+       "share": 0.03,
+       "median_salary": null
+      }
+     ]
+    },
+    "Entry / Junior": {
+     "postings": 622,
+     "salaried": 73,
+     "median_salary": 66100,
+     "top_skills": [
+      {
+       "skill": "customer-success",
+       "share": 0.318,
+       "median_salary": 62200
+      },
+      {
+       "skill": "excel",
+       "share": 0.251,
+       "median_salary": null
+      },
+      {
+       "skill": "project-management",
+       "share": 0.113,
+       "median_salary": null
+      },
+      {
+       "skill": "crm",
+       "share": 0.103,
+       "median_salary": null
+      },
+      {
+       "skill": "communication",
+       "share": 0.095,
+       "median_salary": null
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.079,
+       "median_salary": null
+      },
+      {
+       "skill": "salesforce",
+       "share": 0.079,
+       "median_salary": null
+      },
+      {
+       "skill": "sales",
+       "share": 0.037,
+       "median_salary": null
+      },
+      {
+       "skill": "sap",
+       "share": 0.029,
+       "median_salary": null
+      },
+      {
+       "skill": "azure",
+       "share": 0.027,
+       "median_salary": null
+      },
+      {
+       "skill": "python",
+       "share": 0.024,
+       "median_salary": null
+      },
+      {
+       "skill": "ui-ux",
+       "share": 0.023,
+       "median_salary": null
+      },
+      {
+       "skill": "product-management",
+       "share": 0.023,
+       "median_salary": null
+      },
+      {
+       "skill": "sql",
+       "share": 0.023,
+       "median_salary": null
+      },
+      {
+       "skill": "linux",
+       "share": 0.021,
+       "median_salary": null
+      }
+     ]
+    },
+    "Mid / Unspecified": {
+     "postings": 6145,
+     "salaried": 907,
+     "median_salary": 114600,
+     "top_skills": [
+      {
+       "skill": "customer-success",
+       "share": 0.351,
+       "median_salary": 120000
+      },
+      {
+       "skill": "communication",
+       "share": 0.16,
+       "median_salary": 120400
+      },
+      {
+       "skill": "project-management",
+       "share": 0.138,
+       "median_salary": 111800
+      },
+      {
+       "skill": "crm",
+       "share": 0.103,
+       "median_salary": 100000
+      },
+      {
+       "skill": "excel",
+       "share": 0.091,
+       "median_salary": 95000
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.085,
+       "median_salary": 114600
+      },
+      {
+       "skill": "sql",
+       "share": 0.077,
+       "median_salary": 115000
+      },
+      {
+       "skill": "salesforce",
+       "share": 0.072,
+       "median_salary": 105000
+      },
+      {
+       "skill": "product-management",
+       "share": 0.071,
+       "median_salary": 135000
+      },
+      {
+       "skill": "python",
+       "share": 0.055,
+       "median_salary": 130000
+      },
+      {
+       "skill": "spring",
+       "share": 0.037,
+       "median_salary": null
+      },
+      {
+       "skill": "linux",
+       "share": 0.037,
+       "median_salary": 120000
+      },
+      {
+       "skill": "aws",
+       "share": 0.037,
+       "median_salary": 120500
+      },
+      {
+       "skill": "azure",
+       "share": 0.033,
+       "median_salary": 120000
+      },
+      {
+       "skill": "llm",
+       "share": 0.032,
+       "median_salary": 135000
+      }
+     ]
+    },
+    "Principal / Staff": {
+     "postings": 50,
+     "salaried": 14,
+     "median_salary": null,
+     "top_skills": [
+      {
+       "skill": "customer-success",
+       "share": 0.58,
+       "median_salary": null
+      },
+      {
+       "skill": "communication",
+       "share": 0.4,
+       "median_salary": null
+      },
+      {
+       "skill": "product-management",
+       "share": 0.32,
+       "median_salary": null
+      },
+      {
+       "skill": "project-management",
+       "share": 0.3,
+       "median_salary": null
+      },
+      {
+       "skill": "aws",
+       "share": 0.22,
+       "median_salary": null
+      },
+      {
+       "skill": "sql",
+       "share": 0.22,
+       "median_salary": null
+      },
+      {
+       "skill": "azure",
+       "share": 0.18,
+       "median_salary": null
+      },
+      {
+       "skill": "gcp",
+       "share": 0.18,
+       "median_salary": null
+      },
+      {
+       "skill": "java",
+       "share": 0.16,
+       "median_salary": null
+      },
+      {
+       "skill": "python",
+       "share": 0.16,
+       "median_salary": null
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.16,
+       "median_salary": null
+      },
+      {
+       "skill": "devops",
+       "share": 0.14,
+       "median_salary": null
+      },
+      {
+       "skill": "kubernetes",
+       "share": 0.14,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.14,
+       "median_salary": null
+      },
+      {
+       "skill": "snowflake",
+       "share": 0.14,
+       "median_salary": null
+      }
+     ]
+    },
+    "Senior / Lead": {
+     "postings": 799,
+     "salaried": 268,
+     "median_salary": 148800,
+     "top_skills": [
+      {
+       "skill": "customer-success",
+       "share": 0.608,
+       "median_salary": 150000
+      },
+      {
+       "skill": "communication",
+       "share": 0.401,
+       "median_salary": 143500
+      },
+      {
+       "skill": "project-management",
+       "share": 0.28,
+       "median_salary": 133500
+      },
+      {
+       "skill": "product-management",
+       "share": 0.24,
+       "median_salary": 155000
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.133,
+       "median_salary": 153400
+      },
+      {
+       "skill": "excel",
+       "share": 0.123,
+       "median_salary": 126000
+      },
+      {
+       "skill": "salesforce",
+       "share": 0.121,
+       "median_salary": 150000
+      },
+      {
+       "skill": "azure",
+       "share": 0.119,
+       "median_salary": 160000
+      },
+      {
+       "skill": "aws",
+       "share": 0.118,
+       "median_salary": 160000
+      },
+      {
+       "skill": "sql",
+       "share": 0.113,
+       "median_salary": 132500
+      },
+      {
+       "skill": "crm",
+       "share": 0.111,
+       "median_salary": 142500
+      },
+      {
+       "skill": "python",
+       "share": 0.105,
+       "median_salary": 177100
+      },
+      {
+       "skill": "llm",
+       "share": 0.104,
+       "median_salary": 157500
+      },
+      {
+       "skill": "gcp",
+       "share": 0.089,
+       "median_salary": 160000
+      },
+      {
+       "skill": "linux",
+       "share": 0.074,
+       "median_salary": 155000
+      }
+     ]
+    }
+   }
+  },
+  "Data & AI": {
+   "postings": 13111,
+   "salaried": 3487,
+   "median_salary": 190500,
+   "top_skills": [
+    {
+     "skill": "python",
+     "share": 0.595,
+     "median_salary": 190000
+    },
+    {
+     "skill": "sql",
+     "share": 0.453,
+     "median_salary": 176500
+    },
+    {
+     "skill": "machine-learning",
+     "share": 0.442,
+     "median_salary": 210000
+    },
+    {
+     "skill": "data-engineering",
+     "share": 0.325,
+     "median_salary": 187500
+    },
+    {
+     "skill": "data-science",
+     "share": 0.311,
+     "median_salary": 185000
+    },
+    {
+     "skill": "communication",
+     "share": 0.277,
+     "median_salary": 187500
+    },
+    {
+     "skill": "llm",
+     "share": 0.262,
+     "median_salary": 205000
+    },
+    {
+     "skill": "aws",
+     "share": 0.232,
+     "median_salary": 184800
+    },
+    {
+     "skill": "statistics",
+     "share": 0.196,
+     "median_salary": 190000
+    },
+    {
+     "skill": "project-management",
+     "share": 0.174,
+     "median_salary": 150000
+    },
+    {
+     "skill": "azure",
+     "share": 0.163,
+     "median_salary": 169800
+    },
+    {
+     "skill": "spark",
+     "share": 0.157,
+     "median_salary": 193000
+    },
+    {
+     "skill": "ci-cd",
+     "share": 0.154,
+     "median_salary": 177500
+    },
+    {
+     "skill": "gcp",
+     "share": 0.151,
+     "median_salary": 180000
+    },
+    {
+     "skill": "pytorch",
+     "share": 0.14,
+     "median_salary": 217500
+    }
+   ],
+   "by_seniority": {
+    "Director / Executive": {
+     "postings": 382,
+     "salaried": 164,
+     "median_salary": 210000,
+     "top_skills": [
+      {
+       "skill": "communication",
+       "share": 0.51,
+       "median_salary": 218800
+      },
+      {
+       "skill": "data-science",
+       "share": 0.377,
+       "median_salary": 237500
+      },
+      {
+       "skill": "product-management",
+       "share": 0.361,
+       "median_salary": 232500
+      },
+      {
+       "skill": "python",
+       "share": 0.346,
+       "median_salary": 233800
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.34,
+       "median_salary": 271000
+      },
+      {
+       "skill": "sql",
+       "share": 0.296,
+       "median_salary": 225400
+      },
+      {
+       "skill": "statistics",
+       "share": 0.259,
+       "median_salary": 252200
+      },
+      {
+       "skill": "project-management",
+       "share": 0.254,
+       "median_salary": 181900
+      },
+      {
+       "skill": "data-engineering",
+       "share": 0.243,
+       "median_salary": 242400
+      },
+      {
+       "skill": "llm",
+       "share": 0.186,
+       "median_salary": 271000
+      },
+      {
+       "skill": "tableau",
+       "share": 0.157,
+       "median_salary": 180000
+      },
+      {
+       "skill": "snowflake",
+       "share": 0.154,
+       "median_salary": 228800
+      },
+      {
+       "skill": "power-bi",
+       "share": 0.144,
+       "median_salary": 181200
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.141,
+       "median_salary": 260500
+      },
+      {
+       "skill": "databricks",
+       "share": 0.128,
+       "median_salary": 235000
+      }
+     ]
+    },
+    "Entry / Junior": {
+     "postings": 583,
+     "salaried": 94,
+     "median_salary": 136900,
+     "top_skills": [
+      {
+       "skill": "python",
+       "share": 0.617,
+       "median_salary": 150000
+      },
+      {
+       "skill": "sql",
+       "share": 0.424,
+       "median_salary": 106000
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.395,
+       "median_salary": 170000
+      },
+      {
+       "skill": "statistics",
+       "share": 0.304,
+       "median_salary": 165500
+      },
+      {
+       "skill": "data-science",
+       "share": 0.286,
+       "median_salary": 106200
+      },
+      {
+       "skill": "excel",
+       "share": 0.25,
+       "median_salary": 86900
+      },
+      {
+       "skill": "power-bi",
+       "share": 0.192,
+       "median_salary": null
+      },
+      {
+       "skill": "data-engineering",
+       "share": 0.172,
+       "median_salary": null
+      },
+      {
+       "skill": "communication",
+       "share": 0.168,
+       "median_salary": null
+      },
+      {
+       "skill": "project-management",
+       "share": 0.158,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.158,
+       "median_salary": null
+      },
+      {
+       "skill": "aws",
+       "share": 0.129,
+       "median_salary": null
+      },
+      {
+       "skill": "tableau",
+       "share": 0.115,
+       "median_salary": null
+      },
+      {
+       "skill": "spark",
+       "share": 0.111,
+       "median_salary": null
+      },
+      {
+       "skill": "pytorch",
+       "share": 0.108,
+       "median_salary": null
+      }
+     ]
+    },
+    "Mid / Unspecified": {
+     "postings": 6653,
+     "salaried": 1416,
+     "median_salary": 175000,
+     "top_skills": [
+      {
+       "skill": "python",
+       "share": 0.554,
+       "median_salary": 175000
+      },
+      {
+       "skill": "sql",
+       "share": 0.431,
+       "median_salary": 159100
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.4,
+       "median_salary": 192500
+      },
+      {
+       "skill": "data-engineering",
+       "share": 0.282,
+       "median_salary": 172500
+      },
+      {
+       "skill": "data-science",
+       "share": 0.271,
+       "median_salary": 165000
+      },
+      {
+       "skill": "llm",
+       "share": 0.244,
+       "median_salary": 190000
+      },
+      {
+       "skill": "communication",
+       "share": 0.221,
+       "median_salary": 156000
+      },
+      {
+       "skill": "aws",
+       "share": 0.2,
+       "median_salary": 163800
+      },
+      {
+       "skill": "project-management",
+       "share": 0.19,
+       "median_salary": 134200
+      },
+      {
+       "skill": "azure",
+       "share": 0.174,
+       "median_salary": 152800
+      },
+      {
+       "skill": "statistics",
+       "share": 0.165,
+       "median_salary": 164800
+      },
+      {
+       "skill": "gcp",
+       "share": 0.154,
+       "median_salary": 165900
+      },
+      {
+       "skill": "power-bi",
+       "share": 0.137,
+       "median_salary": 112500
+      },
+      {
+       "skill": "ci-cd",
+       "share": 0.136,
+       "median_salary": 155900
+      },
+      {
+       "skill": "spark",
+       "share": 0.133,
+       "median_salary": 173300
+      }
+     ]
+    },
+    "Principal / Staff": {
+     "postings": 1291,
+     "salaried": 615,
+     "median_salary": 240000,
+     "top_skills": [
+      {
+       "skill": "machine-learning",
+       "share": 0.663,
+       "median_salary": 250000
+      },
+      {
+       "skill": "python",
+       "share": 0.628,
+       "median_salary": 238200
+      },
+      {
+       "skill": "llm",
+       "share": 0.404,
+       "median_salary": 244400
+      },
+      {
+       "skill": "communication",
+       "share": 0.365,
+       "median_salary": 236400
+      },
+      {
+       "skill": "data-engineering",
+       "share": 0.342,
+       "median_salary": 222500
+      },
+      {
+       "skill": "sql",
+       "share": 0.342,
+       "median_salary": 225000
+      },
+      {
+       "skill": "data-science",
+       "share": 0.324,
+       "median_salary": 228300
+      },
+      {
+       "skill": "aws",
+       "share": 0.265,
+       "median_salary": 220500
+      },
+      {
+       "skill": "pytorch",
+       "share": 0.256,
+       "median_salary": 250000
+      },
+      {
+       "skill": "product-management",
+       "share": 0.217,
+       "median_salary": 239400
+      },
+      {
+       "skill": "statistics",
+       "share": 0.215,
+       "median_salary": 234500
+      },
+      {
+       "skill": "spark",
+       "share": 0.195,
+       "median_salary": 238500
+      },
+      {
+       "skill": "deep-learning",
+       "share": 0.184,
+       "median_salary": 253000
+      },
+      {
+       "skill": "ci-cd",
+       "share": 0.171,
+       "median_salary": 220000
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.166,
+       "median_salary": 239800
+      }
+     ]
+    },
+    "Senior / Lead": {
+     "postings": 4202,
+     "salaried": 1198,
+     "median_salary": 187500,
+     "top_skills": [
+      {
+       "skill": "python",
+       "share": 0.668,
+       "median_salary": 185000
+      },
+      {
+       "skill": "sql",
+       "share": 0.54,
+       "median_salary": 177200
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.458,
+       "median_salary": 205000
+      },
+      {
+       "skill": "data-engineering",
+       "share": 0.416,
+       "median_salary": 185000
+      },
+      {
+       "skill": "data-science",
+       "share": 0.369,
+       "median_salary": 185000
+      },
+      {
+       "skill": "communication",
+       "share": 0.332,
+       "median_salary": 182500
+      },
+      {
+       "skill": "aws",
+       "share": 0.298,
+       "median_salary": 180000
+      },
+      {
+       "skill": "llm",
+       "share": 0.268,
+       "median_salary": 196200
+      },
+      {
+       "skill": "statistics",
+       "share": 0.217,
+       "median_salary": 185000
+      },
+      {
+       "skill": "ci-cd",
+       "share": 0.2,
+       "median_salary": 179000
+      },
+      {
+       "skill": "spark",
+       "share": 0.199,
+       "median_salary": 187600
+      },
+      {
+       "skill": "azure",
+       "share": 0.184,
+       "median_salary": 168000
+      },
+      {
+       "skill": "snowflake",
+       "share": 0.178,
+       "median_salary": 175000
+      },
+      {
+       "skill": "project-management",
+       "share": 0.176,
+       "median_salary": 158500
+      },
+      {
+       "skill": "gcp",
+       "share": 0.172,
+       "median_salary": 180000
+      }
+     ]
+    }
+   }
+  },
+  "Education": {
+   "postings": 3763,
+   "salaried": 752,
+   "median_salary": 73800,
+   "top_skills": [
+    {
+     "skill": "excel",
+     "share": 0.123,
+     "median_salary": 75000
+    },
+    {
+     "skill": "recruiting",
+     "share": 0.077,
+     "median_salary": 90100
+    },
+    {
+     "skill": "spring",
+     "share": 0.073,
+     "median_salary": 72500
+    },
+    {
+     "skill": "project-management",
+     "share": 0.045,
+     "median_salary": null
+    },
+    {
+     "skill": "communication",
+     "share": 0.035,
+     "median_salary": 126000
+    },
+    {
+     "skill": "sales",
+     "share": 0.03,
+     "median_salary": null
+    },
+    {
+     "skill": "qa-testing",
+     "share": 0.015,
+     "median_salary": null
+    },
+    {
+     "skill": "llm",
+     "share": 0.014,
+     "median_salary": null
+    },
+    {
+     "skill": "robotics",
+     "share": 0.013,
+     "median_salary": null
+    },
+    {
+     "skill": "python",
+     "share": 0.012,
+     "median_salary": null
+    },
+    {
+     "skill": "accounting",
+     "share": 0.012,
+     "median_salary": null
+    },
+    {
+     "skill": "gis",
+     "share": 0.008,
+     "median_salary": null
+    },
+    {
+     "skill": "customer-success",
+     "share": 0.007,
+     "median_salary": null
+    },
+    {
+     "skill": "spark",
+     "share": 0.007,
+     "median_salary": null
+    },
+    {
+     "skill": "seo",
+     "share": 0.006,
+     "median_salary": null
+    }
+   ],
+   "by_seniority": {
+    "Director / Executive": {
+     "postings": 81,
+     "salaried": 16,
+     "median_salary": null,
+     "top_skills": [
+      {
+       "skill": "project-management",
+       "share": 0.185,
+       "median_salary": null
+      },
+      {
+       "skill": "excel",
+       "share": 0.185,
+       "median_salary": null
+      },
+      {
+       "skill": "communication",
+       "share": 0.148,
+       "median_salary": null
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.099,
+       "median_salary": null
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.074,
+       "median_salary": null
+      },
+      {
+       "skill": "spring",
+       "share": 0.074,
+       "median_salary": null
+      },
+      {
+       "skill": "accounting",
+       "share": 0.062,
+       "median_salary": null
+      },
+      {
+       "skill": "tableau",
+       "share": 0.049,
+       "median_salary": null
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.037,
+       "median_salary": null
+      },
+      {
+       "skill": "product-management",
+       "share": 0.037,
+       "median_salary": null
+      },
+      {
+       "skill": "sales",
+       "share": 0.037,
+       "median_salary": null
+      },
+      {
+       "skill": "figma",
+       "share": 0.025,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.025,
+       "median_salary": null
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.025,
+       "median_salary": null
+      },
+      {
+       "skill": "unity",
+       "share": 0.025,
+       "median_salary": null
+      }
+     ]
+    },
+    "Entry / Junior": {
+     "postings": 308,
+     "salaried": 39,
+     "median_salary": 45000,
+     "top_skills": [
+      {
+       "skill": "excel",
+       "share": 0.205,
+       "median_salary": null
+      },
+      {
+       "skill": "project-management",
+       "share": 0.146,
+       "median_salary": null
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.097,
+       "median_salary": null
+      },
+      {
+       "skill": "spring",
+       "share": 0.052,
+       "median_salary": null
+      },
+      {
+       "skill": "communication",
+       "share": 0.039,
+       "median_salary": null
+      },
+      {
+       "skill": "python",
+       "share": 0.023,
+       "median_salary": null
+      },
+      {
+       "skill": "seo",
+       "share": 0.023,
+       "median_salary": null
+      },
+      {
+       "skill": "spark",
+       "share": 0.023,
+       "median_salary": null
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.019,
+       "median_salary": null
+      },
+      {
+       "skill": "aws",
+       "share": 0.016,
+       "median_salary": null
+      },
+      {
+       "skill": "robotics",
+       "share": 0.013,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.013,
+       "median_salary": null
+      },
+      {
+       "skill": "data-science",
+       "share": 0.013,
+       "median_salary": null
+      },
+      {
+       "skill": "gis",
+       "share": 0.01,
+       "median_salary": null
+      },
+      {
+       "skill": "sales",
+       "share": 0.006,
+       "median_salary": null
+      }
+     ]
+    },
+    "Mid / Unspecified": {
+     "postings": 3197,
+     "salaried": 623,
+     "median_salary": 74600,
+     "top_skills": [
+      {
+       "skill": "excel",
+       "share": 0.118,
+       "median_salary": 82000
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.079,
+       "median_salary": 90100
+      },
+      {
+       "skill": "spring",
+       "share": 0.075,
+       "median_salary": 72500
+      },
+      {
+       "skill": "sales",
+       "share": 0.033,
+       "median_salary": null
+      },
+      {
+       "skill": "project-management",
+       "share": 0.028,
+       "median_salary": null
+      },
+      {
+       "skill": "communication",
+       "share": 0.021,
+       "median_salary": null
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.014,
+       "median_salary": null
+      },
+      {
+       "skill": "robotics",
+       "share": 0.014,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.013,
+       "median_salary": null
+      },
+      {
+       "skill": "accounting",
+       "share": 0.011,
+       "median_salary": null
+      },
+      {
+       "skill": "python",
+       "share": 0.011,
+       "median_salary": null
+      },
+      {
+       "skill": "numpy",
+       "share": 0.006,
+       "median_salary": null
+      },
+      {
+       "skill": "typescript",
+       "share": 0.006,
+       "median_salary": null
+      },
+      {
+       "skill": "gis",
+       "share": 0.006,
+       "median_salary": null
+      },
+      {
+       "skill": "spark",
+       "share": 0.006,
+       "median_salary": null
+      }
+     ]
+    },
+    "Senior / Lead": {
+     "postings": 150,
+     "salaried": 52,
+     "median_salary": 67900,
+     "top_skills": [
+      {
+       "skill": "communication",
+       "share": 0.187,
+       "median_salary": null
+      },
+      {
+       "skill": "project-management",
+       "share": 0.113,
+       "median_salary": null
+      },
+      {
+       "skill": "spring",
+       "share": 0.047,
+       "median_salary": null
+      },
+      {
+       "skill": "product-management",
+       "share": 0.047,
+       "median_salary": null
+      },
+      {
+       "skill": "excel",
+       "share": 0.047,
+       "median_salary": null
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.04,
+       "median_salary": null
+      },
+      {
+       "skill": "financial-analysis",
+       "share": 0.027,
+       "median_salary": null
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.027,
+       "median_salary": null
+      },
+      {
+       "skill": "python",
+       "share": 0.027,
+       "median_salary": null
+      },
+      {
+       "skill": "accounting",
+       "share": 0.02,
+       "median_salary": null
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.02,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.02,
+       "median_salary": null
+      },
+      {
+       "skill": "sql",
+       "share": 0.02,
+       "median_salary": null
+      },
+      {
+       "skill": "ui-ux",
+       "share": 0.02,
+       "median_salary": null
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.02,
+       "median_salary": null
+      }
+     ]
+    }
+   }
+  },
+  "Finance & Legal": {
+   "postings": 15142,
+   "salaried": 2851,
+   "median_salary": 155000,
+   "top_skills": [
+    {
+     "skill": "accounting",
+     "share": 0.383,
+     "median_salary": 145000
+    },
+    {
+     "skill": "excel",
+     "share": 0.281,
+     "median_salary": 120900
+    },
+    {
+     "skill": "communication",
+     "share": 0.229,
+     "median_salary": 172000
+    },
+    {
+     "skill": "financial-analysis",
+     "share": 0.128,
+     "median_salary": 155000
+    },
+    {
+     "skill": "project-management",
+     "share": 0.111,
+     "median_salary": 155000
+    },
+    {
+     "skill": "recruiting",
+     "share": 0.097,
+     "median_salary": 158800
+    },
+    {
+     "skill": "sap",
+     "share": 0.085,
+     "median_salary": 127000
+    },
+    {
+     "skill": "legal",
+     "share": 0.056,
+     "median_salary": 162500
+    },
+    {
+     "skill": "sql",
+     "share": 0.055,
+     "median_salary": 152200
+    },
+    {
+     "skill": "sales",
+     "share": 0.048,
+     "median_salary": 162000
+    },
+    {
+     "skill": "power-bi",
+     "share": 0.045,
+     "median_salary": 115500
+    },
+    {
+     "skill": "product-management",
+     "share": 0.03,
+     "median_salary": 194500
+    },
+    {
+     "skill": "tableau",
+     "share": 0.029,
+     "median_salary": 131800
+    },
+    {
+     "skill": "security",
+     "share": 0.027,
+     "median_salary": 195800
+    },
+    {
+     "skill": "salesforce",
+     "share": 0.027,
+     "median_salary": 150000
+    }
+   ],
+   "by_seniority": {
+    "Director / Executive": {
+     "postings": 1300,
+     "salaried": 501,
+     "median_salary": 213100,
+     "top_skills": [
+      {
+       "skill": "accounting",
+       "share": 0.524,
+       "median_salary": 215400
+      },
+      {
+       "skill": "communication",
+       "share": 0.366,
+       "median_salary": 229600
+      },
+      {
+       "skill": "financial-analysis",
+       "share": 0.266,
+       "median_salary": 220000
+      },
+      {
+       "skill": "excel",
+       "share": 0.17,
+       "median_salary": 182500
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.127,
+       "median_salary": 225000
+      },
+      {
+       "skill": "project-management",
+       "share": 0.119,
+       "median_salary": 191000
+      },
+      {
+       "skill": "product-management",
+       "share": 0.095,
+       "median_salary": 231500
+      },
+      {
+       "skill": "sap",
+       "share": 0.064,
+       "median_salary": 196200
+      },
+      {
+       "skill": "sql",
+       "share": 0.057,
+       "median_salary": 211500
+      },
+      {
+       "skill": "sales",
+       "share": 0.056,
+       "median_salary": 184300
+      },
+      {
+       "skill": "security",
+       "share": 0.049,
+       "median_salary": 235000
+      },
+      {
+       "skill": "legal",
+       "share": 0.044,
+       "median_salary": 190000
+      },
+      {
+       "skill": "power-bi",
+       "share": 0.041,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.035,
+       "median_salary": 233000
+      },
+      {
+       "skill": "salesforce",
+       "share": 0.035,
+       "median_salary": 223500
+      }
+     ]
+    },
+    "Entry / Junior": {
+     "postings": 1495,
+     "salaried": 212,
+     "median_salary": 149000,
+     "top_skills": [
+      {
+       "skill": "excel",
+       "share": 0.364,
+       "median_salary": 98800
+      },
+      {
+       "skill": "accounting",
+       "share": 0.355,
+       "median_salary": 112000
+      },
+      {
+       "skill": "communication",
+       "share": 0.169,
+       "median_salary": 162500
+      },
+      {
+       "skill": "financial-analysis",
+       "share": 0.092,
+       "median_salary": 122500
+      },
+      {
+       "skill": "sap",
+       "share": 0.076,
+       "median_salary": null
+      },
+      {
+       "skill": "project-management",
+       "share": 0.075,
+       "median_salary": 142500
+      },
+      {
+       "skill": "sales",
+       "share": 0.066,
+       "median_salary": null
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.065,
+       "median_salary": 144500
+      },
+      {
+       "skill": "power-bi",
+       "share": 0.053,
+       "median_salary": null
+      },
+      {
+       "skill": "legal",
+       "share": 0.05,
+       "median_salary": 157500
+      },
+      {
+       "skill": "sql",
+       "share": 0.043,
+       "median_salary": null
+      },
+      {
+       "skill": "python",
+       "share": 0.025,
+       "median_salary": null
+      },
+      {
+       "skill": "tableau",
+       "share": 0.021,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.02,
+       "median_salary": null
+      },
+      {
+       "skill": "product-management",
+       "share": 0.019,
+       "median_salary": null
+      }
+     ]
+    },
+    "Mid / Unspecified": {
+     "postings": 8710,
+     "salaried": 1250,
+     "median_salary": 139900,
+     "top_skills": [
+      {
+       "skill": "accounting",
+       "share": 0.348,
+       "median_salary": 133000
+      },
+      {
+       "skill": "excel",
+       "share": 0.28,
+       "median_salary": 115500
+      },
+      {
+       "skill": "communication",
+       "share": 0.192,
+       "median_salary": 155000
+      },
+      {
+       "skill": "project-management",
+       "share": 0.106,
+       "median_salary": 153000
+      },
+      {
+       "skill": "financial-analysis",
+       "share": 0.1,
+       "median_salary": 141800
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.09,
+       "median_salary": 151000
+      },
+      {
+       "skill": "sap",
+       "share": 0.088,
+       "median_salary": 118000
+      },
+      {
+       "skill": "legal",
+       "share": 0.056,
+       "median_salary": 136800
+      },
+      {
+       "skill": "sql",
+       "share": 0.045,
+       "median_salary": 137500
+      },
+      {
+       "skill": "power-bi",
+       "share": 0.041,
+       "median_salary": 103300
+      },
+      {
+       "skill": "sales",
+       "share": 0.034,
+       "median_salary": 145000
+      },
+      {
+       "skill": "salesforce",
+       "share": 0.026,
+       "median_salary": 144000
+      },
+      {
+       "skill": "tableau",
+       "share": 0.026,
+       "median_salary": 123800
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.025,
+       "median_salary": 129000
+      },
+      {
+       "skill": "security",
+       "share": 0.024,
+       "median_salary": 162500
+      }
+     ]
+    },
+    "Principal / Staff": {
+     "postings": 183,
+     "salaried": 36,
+     "median_salary": 180200,
+     "top_skills": [
+      {
+       "skill": "accounting",
+       "share": 0.257,
+       "median_salary": null
+      },
+      {
+       "skill": "excel",
+       "share": 0.24,
+       "median_salary": null
+      },
+      {
+       "skill": "communication",
+       "share": 0.219,
+       "median_salary": null
+      },
+      {
+       "skill": "project-management",
+       "share": 0.202,
+       "median_salary": null
+      },
+      {
+       "skill": "financial-analysis",
+       "share": 0.153,
+       "median_salary": null
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.137,
+       "median_salary": null
+      },
+      {
+       "skill": "sales",
+       "share": 0.131,
+       "median_salary": null
+      },
+      {
+       "skill": "sql",
+       "share": 0.109,
+       "median_salary": null
+      },
+      {
+       "skill": "sap",
+       "share": 0.093,
+       "median_salary": null
+      },
+      {
+       "skill": "power-bi",
+       "share": 0.077,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.071,
+       "median_salary": null
+      },
+      {
+       "skill": "product-management",
+       "share": 0.071,
+       "median_salary": null
+      },
+      {
+       "skill": "legal",
+       "share": 0.066,
+       "median_salary": null
+      },
+      {
+       "skill": "python",
+       "share": 0.049,
+       "median_salary": null
+      },
+      {
+       "skill": "security",
+       "share": 0.049,
+       "median_salary": null
+      }
+     ]
+    },
+    "Senior / Lead": {
+     "postings": 3454,
+     "salaried": 852,
+     "median_salary": 147700,
+     "top_skills": [
+      {
+       "skill": "accounting",
+       "share": 0.436,
+       "median_salary": 132500
+      },
+      {
+       "skill": "communication",
+       "share": 0.296,
+       "median_salary": 165800
+      },
+      {
+       "skill": "excel",
+       "share": 0.294,
+       "median_salary": 116400
+      },
+      {
+       "skill": "financial-analysis",
+       "share": 0.159,
+       "median_salary": 147500
+      },
+      {
+       "skill": "project-management",
+       "share": 0.134,
+       "median_salary": 149200
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.114,
+       "median_salary": 140700
+      },
+      {
+       "skill": "sap",
+       "share": 0.089,
+       "median_salary": 114500
+      },
+      {
+       "skill": "sql",
+       "share": 0.081,
+       "median_salary": 153800
+      },
+      {
+       "skill": "sales",
+       "share": 0.069,
+       "median_salary": 161000
+      },
+      {
+       "skill": "legal",
+       "share": 0.063,
+       "median_salary": 165300
+      },
+      {
+       "skill": "power-bi",
+       "share": 0.052,
+       "median_salary": 115500
+      },
+      {
+       "skill": "tableau",
+       "share": 0.04,
+       "median_salary": 130500
+      },
+      {
+       "skill": "product-management",
+       "share": 0.034,
+       "median_salary": 194500
+      },
+      {
+       "skill": "data-science",
+       "share": 0.033,
+       "median_salary": null
+      },
+      {
+       "skill": "python",
+       "share": 0.033,
+       "median_salary": 155000
+      }
+     ]
+    }
+   }
+  },
+  "Hardware & Engineering": {
+   "postings": 34586,
+   "salaried": 7547,
+   "median_salary": 165000,
+   "top_skills": [
+    {
+     "skill": "project-management",
+     "share": 0.193,
+     "median_salary": 151500
+    },
+    {
+     "skill": "communication",
+     "share": 0.181,
+     "median_salary": 168600
+    },
+    {
+     "skill": "python",
+     "share": 0.157,
+     "median_salary": 170000
+    },
+    {
+     "skill": "recruiting",
+     "share": 0.116,
+     "median_salary": 170000
+    },
+    {
+     "skill": "excel",
+     "share": 0.097,
+     "median_salary": 143200
+    },
+    {
+     "skill": "robotics",
+     "share": 0.066,
+     "median_salary": 175000
+    },
+    {
+     "skill": "qa-testing",
+     "share": 0.063,
+     "median_salary": 155000
+    },
+    {
+     "skill": "hardware",
+     "share": 0.057,
+     "median_salary": 170000
+    },
+    {
+     "skill": "product-management",
+     "share": 0.056,
+     "median_salary": 199500
+    },
+    {
+     "skill": "aws",
+     "share": 0.056,
+     "median_salary": 180000
+    },
+    {
+     "skill": "ci-cd",
+     "share": 0.052,
+     "median_salary": 185000
+    },
+    {
+     "skill": "embedded",
+     "share": 0.05,
+     "median_salary": 182500
+    },
+    {
+     "skill": "linux",
+     "share": 0.049,
+     "median_salary": 170000
+    },
+    {
+     "skill": "sql",
+     "share": 0.048,
+     "median_salary": 161300
+    },
+    {
+     "skill": "sales",
+     "share": 0.044,
+     "median_salary": 165000
+    }
+   ],
+   "by_seniority": {
+    "Director / Executive": {
+     "postings": 1367,
+     "salaried": 359,
+     "median_salary": 249500,
+     "top_skills": [
+      {
+       "skill": "communication",
+       "share": 0.291,
+       "median_salary": 255000
+      },
+      {
+       "skill": "product-management",
+       "share": 0.23,
+       "median_salary": 259700
+      },
+      {
+       "skill": "project-management",
+       "share": 0.167,
+       "median_salary": 200000
+      },
+      {
+       "skill": "sales",
+       "share": 0.154,
+       "median_salary": 228200
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.135,
+       "median_salary": 250400
+      },
+      {
+       "skill": "aws",
+       "share": 0.077,
+       "median_salary": 272600
+      },
+      {
+       "skill": "ci-cd",
+       "share": 0.071,
+       "median_salary": 276500
+      },
+      {
+       "skill": "python",
+       "share": 0.061,
+       "median_salary": 256500
+      },
+      {
+       "skill": "devops",
+       "share": 0.059,
+       "median_salary": 263800
+      },
+      {
+       "skill": "llm",
+       "share": 0.056,
+       "median_salary": 280000
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.054,
+       "median_salary": 265400
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.053,
+       "median_salary": 269700
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.05,
+       "median_salary": null
+      },
+      {
+       "skill": "robotics",
+       "share": 0.05,
+       "median_salary": 256000
+      },
+      {
+       "skill": "excel",
+       "share": 0.049,
+       "median_salary": 223800
+      }
+     ]
+    },
+    "Entry / Junior": {
+     "postings": 1735,
+     "salaried": 151,
+     "median_salary": 102500,
+     "top_skills": [
+      {
+       "skill": "project-management",
+       "share": 0.175,
+       "median_salary": 98000
+      },
+      {
+       "skill": "python",
+       "share": 0.145,
+       "median_salary": 101200
+      },
+      {
+       "skill": "excel",
+       "share": 0.14,
+       "median_salary": 85000
+      },
+      {
+       "skill": "communication",
+       "share": 0.096,
+       "median_salary": 107100
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.063,
+       "median_salary": 104800
+      },
+      {
+       "skill": "robotics",
+       "share": 0.063,
+       "median_salary": 96500
+      },
+      {
+       "skill": "hardware",
+       "share": 0.063,
+       "median_salary": null
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.048,
+       "median_salary": null
+      },
+      {
+       "skill": "sql",
+       "share": 0.044,
+       "median_salary": null
+      },
+      {
+       "skill": "c++",
+       "share": 0.04,
+       "median_salary": null
+      },
+      {
+       "skill": "embedded",
+       "share": 0.039,
+       "median_salary": null
+      },
+      {
+       "skill": "sales",
+       "share": 0.037,
+       "median_salary": null
+      },
+      {
+       "skill": "linux",
+       "share": 0.036,
+       "median_salary": null
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.036,
+       "median_salary": null
+      },
+      {
+       "skill": "power-bi",
+       "share": 0.03,
+       "median_salary": null
+      }
+     ]
+    },
+    "Mid / Unspecified": {
+     "postings": 19001,
+     "salaried": 3378,
+     "median_salary": 142500,
+     "top_skills": [
+      {
+       "skill": "project-management",
+       "share": 0.175,
+       "median_salary": 130000
+      },
+      {
+       "skill": "communication",
+       "share": 0.147,
+       "median_salary": 145000
+      },
+      {
+       "skill": "python",
+       "share": 0.144,
+       "median_salary": 153300
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.098,
+       "median_salary": 150000
+      },
+      {
+       "skill": "excel",
+       "share": 0.097,
+       "median_salary": 125000
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.064,
+       "median_salary": 135000
+      },
+      {
+       "skill": "robotics",
+       "share": 0.061,
+       "median_salary": 155500
+      },
+      {
+       "skill": "linux",
+       "share": 0.054,
+       "median_salary": 150000
+      },
+      {
+       "skill": "typescript",
+       "share": 0.047,
+       "median_salary": 170000
+      },
+      {
+       "skill": "sql",
+       "share": 0.046,
+       "median_salary": 137500
+      },
+      {
+       "skill": "hardware",
+       "share": 0.046,
+       "median_salary": 147500
+      },
+      {
+       "skill": "aws",
+       "share": 0.043,
+       "median_salary": 156000
+      },
+      {
+       "skill": "embedded",
+       "share": 0.042,
+       "median_salary": 165000
+      },
+      {
+       "skill": "ci-cd",
+       "share": 0.04,
+       "median_salary": 160000
+      },
+      {
+       "skill": "product-management",
+       "share": 0.037,
+       "median_salary": 172500
+      }
+     ]
+    },
+    "Principal / Staff": {
+     "postings": 3517,
+     "salaried": 1046,
+     "median_salary": 210000,
+     "top_skills": [
+      {
+       "skill": "communication",
+       "share": 0.27,
+       "median_salary": 205000
+      },
+      {
+       "skill": "project-management",
+       "share": 0.249,
+       "median_salary": 201000
+      },
+      {
+       "skill": "python",
+       "share": 0.221,
+       "median_salary": 219000
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.148,
+       "median_salary": 208000
+      },
+      {
+       "skill": "excel",
+       "share": 0.118,
+       "median_salary": 208000
+      },
+      {
+       "skill": "product-management",
+       "share": 0.099,
+       "median_salary": 220000
+      },
+      {
+       "skill": "ci-cd",
+       "share": 0.088,
+       "median_salary": 217500
+      },
+      {
+       "skill": "hardware",
+       "share": 0.084,
+       "median_salary": 203500
+      },
+      {
+       "skill": "embedded",
+       "share": 0.083,
+       "median_salary": 213500
+      },
+      {
+       "skill": "aws",
+       "share": 0.082,
+       "median_salary": 213000
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.072,
+       "median_salary": 200000
+      },
+      {
+       "skill": "robotics",
+       "share": 0.07,
+       "median_salary": 213500
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.064,
+       "median_salary": 238000
+      },
+      {
+       "skill": "c++",
+       "share": 0.062,
+       "median_salary": 223500
+      },
+      {
+       "skill": "kubernetes",
+       "share": 0.06,
+       "median_salary": 229000
+      }
+     ]
+    },
+    "Senior / Lead": {
+     "postings": 8966,
+     "salaried": 2613,
+     "median_salary": 165000,
+     "top_skills": [
+      {
+       "skill": "communication",
+       "share": 0.219,
+       "median_salary": 165000
+      },
+      {
+       "skill": "project-management",
+       "share": 0.217,
+       "median_salary": 163000
+      },
+      {
+       "skill": "python",
+       "share": 0.174,
+       "median_salary": 172400
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.149,
+       "median_salary": 170000
+      },
+      {
+       "skill": "excel",
+       "share": 0.086,
+       "median_salary": 150000
+      },
+      {
+       "skill": "robotics",
+       "share": 0.08,
+       "median_salary": 180000
+      },
+      {
+       "skill": "hardware",
+       "share": 0.076,
+       "median_salary": 170000
+      },
+      {
+       "skill": "aws",
+       "share": 0.074,
+       "median_salary": 175800
+      },
+      {
+       "skill": "ci-cd",
+       "share": 0.068,
+       "median_salary": 176200
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.062,
+       "median_salary": 155000
+      },
+      {
+       "skill": "product-management",
+       "share": 0.061,
+       "median_salary": 181400
+      },
+      {
+       "skill": "embedded",
+       "share": 0.06,
+       "median_salary": 180000
+      },
+      {
+       "skill": "sales",
+       "share": 0.052,
+       "median_salary": 160000
+      },
+      {
+       "skill": "computer-vision",
+       "share": 0.052,
+       "median_salary": 170000
+      },
+      {
+       "skill": "sql",
+       "share": 0.052,
+       "median_salary": 172200
+      }
+     ]
+    }
+   }
+  },
+  "Healthcare": {
+   "postings": 16276,
+   "salaried": 2091,
+   "median_salary": 140000,
+   "top_skills": [
+    {
+     "skill": "recruiting",
+     "share": 0.076,
+     "median_salary": 118800
+    },
+    {
+     "skill": "excel",
+     "share": 0.043,
+     "median_salary": 120000
+    },
+    {
+     "skill": "communication",
+     "share": 0.041,
+     "median_salary": 183500
+    },
+    {
+     "skill": "project-management",
+     "share": 0.024,
+     "median_salary": 140000
+    },
+    {
+     "skill": "qa-testing",
+     "share": 0.022,
+     "median_salary": 111000
+    },
+    {
+     "skill": "ruby",
+     "share": 0.021,
+     "median_salary": null
+    },
+    {
+     "skill": "sales",
+     "share": 0.015,
+     "median_salary": 210000
+    },
+    {
+     "skill": "dbt",
+     "share": 0.013,
+     "median_salary": null
+    },
+    {
+     "skill": "vue",
+     "share": 0.008,
+     "median_salary": null
+    },
+    {
+     "skill": "gcp",
+     "share": 0.007,
+     "median_salary": 185000
+    },
+    {
+     "skill": "statistics",
+     "share": 0.007,
+     "median_salary": null
+    },
+    {
+     "skill": "customer-success",
+     "share": 0.006,
+     "median_salary": 124000
+    },
+    {
+     "skill": "spring",
+     "share": 0.005,
+     "median_salary": 111500
+    },
+    {
+     "skill": "crm",
+     "share": 0.005,
+     "median_salary": 125400
+    },
+    {
+     "skill": "product-management",
+     "share": 0.004,
+     "median_salary": 190000
+    }
+   ],
+   "by_seniority": {
+    "Director / Executive": {
+     "postings": 491,
+     "salaried": 212,
+     "median_salary": 205000,
+     "top_skills": [
+      {
+       "skill": "communication",
+       "share": 0.428,
+       "median_salary": 235000
+      },
+      {
+       "skill": "sales",
+       "share": 0.222,
+       "median_salary": 240000
+      },
+      {
+       "skill": "project-management",
+       "share": 0.104,
+       "median_salary": 240800
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.102,
+       "median_salary": 222800
+      },
+      {
+       "skill": "excel",
+       "share": 0.073,
+       "median_salary": 132500
+      },
+      {
+       "skill": "product-management",
+       "share": 0.063,
+       "median_salary": null
+      },
+      {
+       "skill": "gcp",
+       "share": 0.061,
+       "median_salary": 238500
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.053,
+       "median_salary": null
+      },
+      {
+       "skill": "statistics",
+       "share": 0.053,
+       "median_salary": null
+      },
+      {
+       "skill": "data-science",
+       "share": 0.041,
+       "median_salary": null
+      },
+      {
+       "skill": "crm",
+       "share": 0.033,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.024,
+       "median_salary": null
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.024,
+       "median_salary": null
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.014,
+       "median_salary": null
+      },
+      {
+       "skill": "spring",
+       "share": 0.012,
+       "median_salary": null
+      }
+     ]
+    },
+    "Entry / Junior": {
+     "postings": 4393,
+     "salaried": 290,
+     "median_salary": 115000,
+     "top_skills": [
+      {
+       "skill": "recruiting",
+       "share": 0.12,
+       "median_salary": 86800
+      },
+      {
+       "skill": "excel",
+       "share": 0.026,
+       "median_salary": 120000
+      },
+      {
+       "skill": "project-management",
+       "share": 0.009,
+       "median_salary": null
+      },
+      {
+       "skill": "communication",
+       "share": 0.006,
+       "median_salary": null
+      },
+      {
+       "skill": "spring",
+       "share": 0.004,
+       "median_salary": null
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.004,
+       "median_salary": null
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.003,
+       "median_salary": null
+      },
+      {
+       "skill": "statistics",
+       "share": 0.003,
+       "median_salary": null
+      },
+      {
+       "skill": "gcp",
+       "share": 0.002,
+       "median_salary": null
+      },
+      {
+       "skill": "sap",
+       "share": 0.002,
+       "median_salary": null
+      },
+      {
+       "skill": "spark",
+       "share": 0.002,
+       "median_salary": null
+      },
+      {
+       "skill": "sales",
+       "share": 0.001,
+       "median_salary": null
+      },
+      {
+       "skill": "sql",
+       "share": 0.001,
+       "median_salary": null
+      },
+      {
+       "skill": "computer-vision",
+       "share": 0.001,
+       "median_salary": null
+      },
+      {
+       "skill": "product-management",
+       "share": 0.001,
+       "median_salary": null
+      }
+     ]
+    },
+    "Mid / Unspecified": {
+     "postings": 10604,
+     "salaried": 1447,
+     "median_salary": 132500,
+     "top_skills": [
+      {
+       "skill": "recruiting",
+       "share": 0.056,
+       "median_salary": 125000
+      },
+      {
+       "skill": "excel",
+       "share": 0.045,
+       "median_salary": 100000
+      },
+      {
+       "skill": "ruby",
+       "share": 0.032,
+       "median_salary": null
+      },
+      {
+       "skill": "communication",
+       "share": 0.025,
+       "median_salary": 140000
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.024,
+       "median_salary": 102500
+      },
+      {
+       "skill": "project-management",
+       "share": 0.02,
+       "median_salary": 109000
+      },
+      {
+       "skill": "dbt",
+       "share": 0.02,
+       "median_salary": null
+      },
+      {
+       "skill": "vue",
+       "share": 0.012,
+       "median_salary": null
+      },
+      {
+       "skill": "sales",
+       "share": 0.011,
+       "median_salary": 190000
+      },
+      {
+       "skill": "spring",
+       "share": 0.005,
+       "median_salary": 81500
+      },
+      {
+       "skill": "crm",
+       "share": 0.005,
+       "median_salary": null
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.005,
+       "median_salary": null
+      },
+      {
+       "skill": "statistics",
+       "share": 0.004,
+       "median_salary": null
+      },
+      {
+       "skill": "gcp",
+       "share": 0.004,
+       "median_salary": null
+      },
+      {
+       "skill": "accounting",
+       "share": 0.004,
+       "median_salary": null
+      }
+     ]
+    },
+    "Senior / Lead": {
+     "postings": 750,
+     "salaried": 132,
+     "median_salary": 147200,
+     "top_skills": [
+      {
+       "skill": "communication",
+       "share": 0.217,
+       "median_salary": 150000
+      },
+      {
+       "skill": "project-management",
+       "share": 0.107,
+       "median_salary": null
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.092,
+       "median_salary": null
+      },
+      {
+       "skill": "excel",
+       "share": 0.075,
+       "median_salary": null
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.064,
+       "median_salary": null
+      },
+      {
+       "skill": "statistics",
+       "share": 0.041,
+       "median_salary": null
+      },
+      {
+       "skill": "gcp",
+       "share": 0.037,
+       "median_salary": null
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.029,
+       "median_salary": null
+      },
+      {
+       "skill": "spark",
+       "share": 0.029,
+       "median_salary": null
+      },
+      {
+       "skill": "sales",
+       "share": 0.021,
+       "median_salary": null
+      },
+      {
+       "skill": "azure",
+       "share": 0.021,
+       "median_salary": null
+      },
+      {
+       "skill": "sql",
+       "share": 0.019,
+       "median_salary": null
+      },
+      {
+       "skill": "sap",
+       "share": 0.019,
+       "median_salary": null
+      },
+      {
+       "skill": "crm",
+       "share": 0.015,
+       "median_salary": null
+      },
+      {
+       "skill": "data-science",
+       "share": 0.012,
+       "median_salary": null
+      }
+     ]
+    }
+   }
+  },
+  "Management": {
+   "postings": 24119,
+   "salaried": 4407,
+   "median_salary": 150000,
+   "top_skills": [
+    {
+     "skill": "communication",
+     "share": 0.229,
+     "median_salary": 170200
+    },
+    {
+     "skill": "project-management",
+     "share": 0.157,
+     "median_salary": 145400
+    },
+    {
+     "skill": "excel",
+     "share": 0.125,
+     "median_salary": 113000
+    },
+    {
+     "skill": "recruiting",
+     "share": 0.107,
+     "median_salary": 170000
+    },
+    {
+     "skill": "sales",
+     "share": 0.095,
+     "median_salary": 159000
+    },
+    {
+     "skill": "product-management",
+     "share": 0.084,
+     "median_salary": 193000
+    },
+    {
+     "skill": "crm",
+     "share": 0.056,
+     "median_salary": 144600
+    },
+    {
+     "skill": "customer-success",
+     "share": 0.056,
+     "median_salary": 160000
+    },
+    {
+     "skill": "salesforce",
+     "share": 0.039,
+     "median_salary": 145800
+    },
+    {
+     "skill": "accounting",
+     "share": 0.038,
+     "median_salary": 152800
+    },
+    {
+     "skill": "qa-testing",
+     "share": 0.036,
+     "median_salary": 124000
+    },
+    {
+     "skill": "sql",
+     "share": 0.03,
+     "median_salary": 160000
+    },
+    {
+     "skill": "statistics",
+     "share": 0.027,
+     "median_salary": 165000
+    },
+    {
+     "skill": "sap",
+     "share": 0.025,
+     "median_salary": 135400
+    },
+    {
+     "skill": "llm",
+     "share": 0.024,
+     "median_salary": 181800
+    }
+   ],
+   "by_seniority": {
+    "Director / Executive": {
+     "postings": 4640,
+     "salaried": 1439,
+     "median_salary": 200000,
+     "top_skills": [
+      {
+       "skill": "communication",
+       "share": 0.365,
+       "median_salary": 209500
+      },
+      {
+       "skill": "sales",
+       "share": 0.184,
+       "median_salary": 185000
+      },
+      {
+       "skill": "project-management",
+       "share": 0.179,
+       "median_salary": 184000
+      },
+      {
+       "skill": "product-management",
+       "share": 0.165,
+       "median_salary": 227500
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.142,
+       "median_salary": 219700
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.097,
+       "median_salary": 202500
+      },
+      {
+       "skill": "excel",
+       "share": 0.083,
+       "median_salary": 160000
+      },
+      {
+       "skill": "crm",
+       "share": 0.075,
+       "median_salary": 185000
+      },
+      {
+       "skill": "salesforce",
+       "share": 0.056,
+       "median_salary": 185000
+      },
+      {
+       "skill": "llm",
+       "share": 0.045,
+       "median_salary": 223000
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.044,
+       "median_salary": 250000
+      },
+      {
+       "skill": "accounting",
+       "share": 0.042,
+       "median_salary": 210300
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.039,
+       "median_salary": 162500
+      },
+      {
+       "skill": "security",
+       "share": 0.037,
+       "median_salary": 222400
+      },
+      {
+       "skill": "data-science",
+       "share": 0.036,
+       "median_salary": 190000
+      }
+     ]
+    },
+    "Entry / Junior": {
+     "postings": 376,
+     "salaried": 94,
+     "median_salary": 80500,
+     "top_skills": [
+      {
+       "skill": "excel",
+       "share": 0.234,
+       "median_salary": null
+      },
+      {
+       "skill": "communication",
+       "share": 0.146,
+       "median_salary": 89800
+      },
+      {
+       "skill": "project-management",
+       "share": 0.122,
+       "median_salary": null
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.101,
+       "median_salary": 100000
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.072,
+       "median_salary": null
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.069,
+       "median_salary": null
+      },
+      {
+       "skill": "sales",
+       "share": 0.053,
+       "median_salary": null
+      },
+      {
+       "skill": "accounting",
+       "share": 0.045,
+       "median_salary": null
+      },
+      {
+       "skill": "crm",
+       "share": 0.043,
+       "median_salary": null
+      },
+      {
+       "skill": "data-science",
+       "share": 0.04,
+       "median_salary": null
+      },
+      {
+       "skill": "salesforce",
+       "share": 0.037,
+       "median_salary": null
+      },
+      {
+       "skill": "python",
+       "share": 0.035,
+       "median_salary": null
+      },
+      {
+       "skill": "sql",
+       "share": 0.035,
+       "median_salary": null
+      },
+      {
+       "skill": "aws",
+       "share": 0.035,
+       "median_salary": null
+      },
+      {
+       "skill": "product-management",
+       "share": 0.035,
+       "median_salary": null
+      }
+     ]
+    },
+    "Mid / Unspecified": {
+     "postings": 13272,
+     "salaried": 1785,
+     "median_salary": 116300,
+     "top_skills": [
+      {
+       "skill": "communication",
+       "share": 0.164,
+       "median_salary": 140000
+      },
+      {
+       "skill": "project-management",
+       "share": 0.138,
+       "median_salary": 126200
+      },
+      {
+       "skill": "excel",
+       "share": 0.129,
+       "median_salary": 102500
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.09,
+       "median_salary": 132000
+      },
+      {
+       "skill": "sales",
+       "share": 0.071,
+       "median_salary": 135000
+      },
+      {
+       "skill": "product-management",
+       "share": 0.052,
+       "median_salary": 157000
+      },
+      {
+       "skill": "crm",
+       "share": 0.049,
+       "median_salary": 114500
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.042,
+       "median_salary": 138000
+      },
+      {
+       "skill": "accounting",
+       "share": 0.033,
+       "median_salary": 125000
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.03,
+       "median_salary": 99500
+      },
+      {
+       "skill": "statistics",
+       "share": 0.028,
+       "median_salary": 120000
+      },
+      {
+       "skill": "salesforce",
+       "share": 0.028,
+       "median_salary": 121200
+      },
+      {
+       "skill": "typescript",
+       "share": 0.025,
+       "median_salary": null
+      },
+      {
+       "skill": "sap",
+       "share": 0.025,
+       "median_salary": 113100
+      },
+      {
+       "skill": "sql",
+       "share": 0.02,
+       "median_salary": 140000
+      }
+     ]
+    },
+    "Principal / Staff": {
+     "postings": 99,
+     "salaried": 29,
+     "median_salary": 185000,
+     "top_skills": [
+      {
+       "skill": "communication",
+       "share": 0.354,
+       "median_salary": null
+      },
+      {
+       "skill": "product-management",
+       "share": 0.192,
+       "median_salary": null
+      },
+      {
+       "skill": "project-management",
+       "share": 0.162,
+       "median_salary": null
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.131,
+       "median_salary": null
+      },
+      {
+       "skill": "excel",
+       "share": 0.111,
+       "median_salary": null
+      },
+      {
+       "skill": "typescript",
+       "share": 0.081,
+       "median_salary": null
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.071,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.061,
+       "median_salary": null
+      },
+      {
+       "skill": "python",
+       "share": 0.061,
+       "median_salary": null
+      },
+      {
+       "skill": "sql",
+       "share": 0.051,
+       "median_salary": null
+      },
+      {
+       "skill": "financial-analysis",
+       "share": 0.051,
+       "median_salary": null
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.04,
+       "median_salary": null
+      },
+      {
+       "skill": "computer-vision",
+       "share": 0.04,
+       "median_salary": null
+      },
+      {
+       "skill": "azure",
+       "share": 0.04,
+       "median_salary": null
+      },
+      {
+       "skill": "embedded",
+       "share": 0.03,
+       "median_salary": null
+      }
+     ]
+    },
+    "Senior / Lead": {
+     "postings": 5732,
+     "salaried": 1060,
+     "median_salary": 160700,
+     "top_skills": [
+      {
+       "skill": "communication",
+       "share": 0.274,
+       "median_salary": 167500
+      },
+      {
+       "skill": "project-management",
+       "share": 0.186,
+       "median_salary": 150500
+      },
+      {
+       "skill": "excel",
+       "share": 0.145,
+       "median_salary": 132500
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.118,
+       "median_salary": 165000
+      },
+      {
+       "skill": "product-management",
+       "share": 0.094,
+       "median_salary": 175000
+      },
+      {
+       "skill": "sales",
+       "share": 0.084,
+       "median_salary": 161100
+      },
+      {
+       "skill": "crm",
+       "share": 0.06,
+       "median_salary": 141800
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.055,
+       "median_salary": 158700
+      },
+      {
+       "skill": "sql",
+       "share": 0.05,
+       "median_salary": 171200
+      },
+      {
+       "skill": "salesforce",
+       "share": 0.049,
+       "median_salary": 150000
+      },
+      {
+       "skill": "accounting",
+       "share": 0.044,
+       "median_salary": 171000
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.043,
+       "median_salary": 135000
+      },
+      {
+       "skill": "ci-cd",
+       "share": 0.036,
+       "median_salary": 154200
+      },
+      {
+       "skill": "sap",
+       "share": 0.035,
+       "median_salary": 147500
+      },
+      {
+       "skill": "python",
+       "share": 0.035,
+       "median_salary": 187500
+      }
+     ]
+    }
+   }
+  },
+  "Marketing & Comms": {
+   "postings": 12081,
+   "salaried": 3332,
+   "median_salary": 140000,
+   "top_skills": [
+    {
+     "skill": "communication",
+     "share": 0.306,
+     "median_salary": 154000
+    },
+    {
+     "skill": "marketing",
+     "share": 0.206,
+     "median_salary": 145000
+    },
+    {
+     "skill": "project-management",
+     "share": 0.182,
+     "median_salary": 128200
+    },
+    {
+     "skill": "crm",
+     "share": 0.123,
+     "median_salary": 140000
+    },
+    {
+     "skill": "excel",
+     "share": 0.116,
+     "median_salary": 105000
+    },
+    {
+     "skill": "product-management",
+     "share": 0.114,
+     "median_salary": 170000
+    },
+    {
+     "skill": "recruiting",
+     "share": 0.106,
+     "median_salary": 154000
+    },
+    {
+     "skill": "seo",
+     "share": 0.098,
+     "median_salary": 150000
+    },
+    {
+     "skill": "sales",
+     "share": 0.082,
+     "median_salary": 145000
+    },
+    {
+     "skill": "salesforce",
+     "share": 0.076,
+     "median_salary": 148500
+    },
+    {
+     "skill": "customer-success",
+     "share": 0.064,
+     "median_salary": 156800
+    },
+    {
+     "skill": "sem",
+     "share": 0.059,
+     "median_salary": 153200
+    },
+    {
+     "skill": "hubspot",
+     "share": 0.059,
+     "median_salary": 145000
+    },
+    {
+     "skill": "llm",
+     "share": 0.048,
+     "median_salary": 165000
+    },
+    {
+     "skill": "sql",
+     "share": 0.047,
+     "median_salary": 165000
+    }
+   ],
+   "by_seniority": {
+    "Director / Executive": {
+     "postings": 1353,
+     "salaried": 628,
+     "median_salary": 205000,
+     "top_skills": [
+      {
+       "skill": "communication",
+       "share": 0.521,
+       "median_salary": 210000
+      },
+      {
+       "skill": "marketing",
+       "share": 0.227,
+       "median_salary": 201200
+      },
+      {
+       "skill": "product-management",
+       "share": 0.188,
+       "median_salary": 212000
+      },
+      {
+       "skill": "project-management",
+       "share": 0.146,
+       "median_salary": 186200
+      },
+      {
+       "skill": "crm",
+       "share": 0.137,
+       "median_salary": 198800
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.136,
+       "median_salary": 195000
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.115,
+       "median_salary": 225000
+      },
+      {
+       "skill": "sales",
+       "share": 0.11,
+       "median_salary": 196200
+      },
+      {
+       "skill": "salesforce",
+       "share": 0.1,
+       "median_salary": 205000
+      },
+      {
+       "skill": "seo",
+       "share": 0.092,
+       "median_salary": 203800
+      },
+      {
+       "skill": "excel",
+       "share": 0.073,
+       "median_salary": 162500
+      },
+      {
+       "skill": "sem",
+       "share": 0.062,
+       "median_salary": 205800
+      },
+      {
+       "skill": "hubspot",
+       "share": 0.061,
+       "median_salary": 185000
+      },
+      {
+       "skill": "security",
+       "share": 0.057,
+       "median_salary": 227400
+      },
+      {
+       "skill": "llm",
+       "share": 0.056,
+       "median_salary": 202500
+      }
+     ]
+    },
+    "Entry / Junior": {
+     "postings": 1261,
+     "salaried": 338,
+     "median_salary": 54500,
+     "top_skills": [
+      {
+       "skill": "excel",
+       "share": 0.232,
+       "median_salary": 58500
+      },
+      {
+       "skill": "marketing",
+       "share": 0.198,
+       "median_salary": 70000
+      },
+      {
+       "skill": "communication",
+       "share": 0.18,
+       "median_salary": 67500
+      },
+      {
+       "skill": "project-management",
+       "share": 0.136,
+       "median_salary": 79000
+      },
+      {
+       "skill": "crm",
+       "share": 0.107,
+       "median_salary": 91700
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.075,
+       "median_salary": 117500
+      },
+      {
+       "skill": "seo",
+       "share": 0.056,
+       "median_salary": null
+      },
+      {
+       "skill": "sales",
+       "share": 0.055,
+       "median_salary": 60000
+      },
+      {
+       "skill": "product-management",
+       "share": 0.038,
+       "median_salary": null
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.035,
+       "median_salary": null
+      },
+      {
+       "skill": "salesforce",
+       "share": 0.034,
+       "median_salary": null
+      },
+      {
+       "skill": "hubspot",
+       "share": 0.031,
+       "median_salary": null
+      },
+      {
+       "skill": "spark",
+       "share": 0.029,
+       "median_salary": null
+      },
+      {
+       "skill": "sem",
+       "share": 0.028,
+       "median_salary": null
+      },
+      {
+       "skill": "sql",
+       "share": 0.028,
+       "median_salary": null
+      }
+     ]
+    },
+    "Mid / Unspecified": {
+     "postings": 6922,
+     "salaried": 1417,
+     "median_salary": 112500,
+     "top_skills": [
+      {
+       "skill": "communication",
+       "share": 0.231,
+       "median_salary": 121800
+      },
+      {
+       "skill": "marketing",
+       "share": 0.196,
+       "median_salary": 121500
+      },
+      {
+       "skill": "project-management",
+       "share": 0.187,
+       "median_salary": 110000
+      },
+      {
+       "skill": "excel",
+       "share": 0.108,
+       "median_salary": 97500
+      },
+      {
+       "skill": "crm",
+       "share": 0.108,
+       "median_salary": 118800
+      },
+      {
+       "skill": "seo",
+       "share": 0.106,
+       "median_salary": 122800
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.1,
+       "median_salary": 132500
+      },
+      {
+       "skill": "sales",
+       "share": 0.082,
+       "median_salary": 116000
+      },
+      {
+       "skill": "product-management",
+       "share": 0.08,
+       "median_salary": 147200
+      },
+      {
+       "skill": "salesforce",
+       "share": 0.067,
+       "median_salary": 131600
+      },
+      {
+       "skill": "sem",
+       "share": 0.06,
+       "median_salary": 135000
+      },
+      {
+       "skill": "hubspot",
+       "share": 0.059,
+       "median_salary": 132500
+      },
+      {
+       "skill": "llm",
+       "share": 0.043,
+       "median_salary": 141700
+      },
+      {
+       "skill": "statistics",
+       "share": 0.042,
+       "median_salary": 120800
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.042,
+       "median_salary": 136000
+      }
+     ]
+    },
+    "Principal / Staff": {
+     "postings": 188,
+     "salaried": 87,
+     "median_salary": 177500,
+     "top_skills": [
+      {
+       "skill": "communication",
+       "share": 0.34,
+       "median_salary": 184000
+      },
+      {
+       "skill": "product-management",
+       "share": 0.207,
+       "median_salary": 183400
+      },
+      {
+       "skill": "sales",
+       "share": 0.154,
+       "median_salary": null
+      },
+      {
+       "skill": "excel",
+       "share": 0.138,
+       "median_salary": null
+      },
+      {
+       "skill": "project-management",
+       "share": 0.09,
+       "median_salary": null
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.08,
+       "median_salary": null
+      },
+      {
+       "skill": "crm",
+       "share": 0.074,
+       "median_salary": null
+      },
+      {
+       "skill": "marketing",
+       "share": 0.064,
+       "median_salary": null
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.064,
+       "median_salary": null
+      },
+      {
+       "skill": "sql",
+       "share": 0.059,
+       "median_salary": null
+      },
+      {
+       "skill": "data-engineering",
+       "share": 0.053,
+       "median_salary": null
+      },
+      {
+       "skill": "security",
+       "share": 0.048,
+       "median_salary": null
+      },
+      {
+       "skill": "python",
+       "share": 0.048,
+       "median_salary": null
+      },
+      {
+       "skill": "looker",
+       "share": 0.043,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.043,
+       "median_salary": null
+      }
+     ]
+    },
+    "Senior / Lead": {
+     "postings": 2357,
+     "salaried": 862,
+     "median_salary": 160000,
+     "top_skills": [
+      {
+       "skill": "communication",
+       "share": 0.467,
+       "median_salary": 160900
+      },
+      {
+       "skill": "marketing",
+       "share": 0.24,
+       "median_salary": 155000
+      },
+      {
+       "skill": "project-management",
+       "share": 0.218,
+       "median_salary": 142700
+      },
+      {
+       "skill": "product-management",
+       "share": 0.204,
+       "median_salary": 166000
+      },
+      {
+       "skill": "crm",
+       "share": 0.171,
+       "median_salary": 152500
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.122,
+       "median_salary": 160000
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.114,
+       "median_salary": 156300
+      },
+      {
+       "skill": "salesforce",
+       "share": 0.113,
+       "median_salary": 157400
+      },
+      {
+       "skill": "seo",
+       "share": 0.107,
+       "median_salary": 165000
+      },
+      {
+       "skill": "excel",
+       "share": 0.099,
+       "median_salary": 115900
+      },
+      {
+       "skill": "sql",
+       "share": 0.089,
+       "median_salary": 165000
+      },
+      {
+       "skill": "sales",
+       "share": 0.076,
+       "median_salary": 147500
+      },
+      {
+       "skill": "hubspot",
+       "share": 0.074,
+       "median_salary": 150000
+      },
+      {
+       "skill": "llm",
+       "share": 0.074,
+       "median_salary": 170000
+      },
+      {
+       "skill": "sem",
+       "share": 0.073,
+       "median_salary": 161200
+      }
+     ]
+    }
+   }
+  },
+  "Operations & Admin": {
+   "postings": 40207,
+   "salaried": 5238,
+   "median_salary": 129500,
+   "top_skills": [
+    {
+     "skill": "project-management",
+     "share": 0.199,
+     "median_salary": 137500
+    },
+    {
+     "skill": "communication",
+     "share": 0.191,
+     "median_salary": 150000
+    },
+    {
+     "skill": "excel",
+     "share": 0.186,
+     "median_salary": 105000
+    },
+    {
+     "skill": "recruiting",
+     "share": 0.09,
+     "median_salary": 145500
+    },
+    {
+     "skill": "sql",
+     "share": 0.057,
+     "median_salary": 137500
+    },
+    {
+     "skill": "sales",
+     "share": 0.054,
+     "median_salary": 147500
+    },
+    {
+     "skill": "qa-testing",
+     "share": 0.047,
+     "median_salary": 122500
+    },
+    {
+     "skill": "sap",
+     "share": 0.043,
+     "median_salary": 114300
+    },
+    {
+     "skill": "product-management",
+     "share": 0.04,
+     "median_salary": 174500
+    },
+    {
+     "skill": "accounting",
+     "share": 0.035,
+     "median_salary": 112500
+    },
+    {
+     "skill": "customer-success",
+     "share": 0.032,
+     "median_salary": 150000
+    },
+    {
+     "skill": "power-bi",
+     "share": 0.031,
+     "median_salary": 122500
+    },
+    {
+     "skill": "python",
+     "share": 0.03,
+     "median_salary": 137000
+    },
+    {
+     "skill": "salesforce",
+     "share": 0.028,
+     "median_salary": 140000
+    },
+    {
+     "skill": "crm",
+     "share": 0.026,
+     "median_salary": 136500
+    }
+   ],
+   "by_seniority": {
+    "Director / Executive": {
+     "postings": 1638,
+     "salaried": 532,
+     "median_salary": 195300,
+     "top_skills": [
+      {
+       "skill": "communication",
+       "share": 0.496,
+       "median_salary": 207100
+      },
+      {
+       "skill": "project-management",
+       "share": 0.276,
+       "median_salary": 188400
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.164,
+       "median_salary": 212500
+      },
+      {
+       "skill": "sales",
+       "share": 0.132,
+       "median_salary": 202500
+      },
+      {
+       "skill": "product-management",
+       "share": 0.129,
+       "median_salary": 213500
+      },
+      {
+       "skill": "excel",
+       "share": 0.123,
+       "median_salary": 145000
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.079,
+       "median_salary": 204800
+      },
+      {
+       "skill": "crm",
+       "share": 0.07,
+       "median_salary": 219800
+      },
+      {
+       "skill": "salesforce",
+       "share": 0.063,
+       "median_salary": 220000
+      },
+      {
+       "skill": "sql",
+       "share": 0.056,
+       "median_salary": 205400
+      },
+      {
+       "skill": "accounting",
+       "share": 0.053,
+       "median_salary": 197500
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.048,
+       "median_salary": 188000
+      },
+      {
+       "skill": "llm",
+       "share": 0.038,
+       "median_salary": 203200
+      },
+      {
+       "skill": "power-bi",
+       "share": 0.034,
+       "median_salary": null
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.025,
+       "median_salary": 232200
+      }
+     ]
+    },
+    "Entry / Junior": {
+     "postings": 10114,
+     "salaried": 740,
+     "median_salary": 76900,
+     "top_skills": [
+      {
+       "skill": "excel",
+       "share": 0.178,
+       "median_salary": 77500
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.083,
+       "median_salary": 100800
+      },
+      {
+       "skill": "project-management",
+       "share": 0.076,
+       "median_salary": 92400
+      },
+      {
+       "skill": "communication",
+       "share": 0.062,
+       "median_salary": 111300
+      },
+      {
+       "skill": "accounting",
+       "share": 0.025,
+       "median_salary": 80000
+      },
+      {
+       "skill": "sales",
+       "share": 0.023,
+       "median_salary": 79500
+      },
+      {
+       "skill": "sap",
+       "share": 0.02,
+       "median_salary": null
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.019,
+       "median_salary": null
+      },
+      {
+       "skill": "sql",
+       "share": 0.017,
+       "median_salary": 100800
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.016,
+       "median_salary": 95000
+      },
+      {
+       "skill": "crm",
+       "share": 0.015,
+       "median_salary": 76300
+      },
+      {
+       "skill": "power-bi",
+       "share": 0.014,
+       "median_salary": null
+      },
+      {
+       "skill": "product-management",
+       "share": 0.014,
+       "median_salary": 121200
+      },
+      {
+       "skill": "swift",
+       "share": 0.013,
+       "median_salary": null
+      },
+      {
+       "skill": "python",
+       "share": 0.009,
+       "median_salary": null
+      }
+     ]
+    },
+    "Mid / Unspecified": {
+     "postings": 21860,
+     "salaried": 2459,
+     "median_salary": 120000,
+     "top_skills": [
+      {
+       "skill": "project-management",
+       "share": 0.208,
+       "median_salary": 124400
+      },
+      {
+       "skill": "excel",
+       "share": 0.188,
+       "median_salary": 97500
+      },
+      {
+       "skill": "communication",
+       "share": 0.171,
+       "median_salary": 135000
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.081,
+       "median_salary": 134800
+      },
+      {
+       "skill": "sql",
+       "share": 0.062,
+       "median_salary": 131200
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.052,
+       "median_salary": 107500
+      },
+      {
+       "skill": "sap",
+       "share": 0.052,
+       "median_salary": 105000
+      },
+      {
+       "skill": "sales",
+       "share": 0.046,
+       "median_salary": 130500
+      },
+      {
+       "skill": "power-bi",
+       "share": 0.035,
+       "median_salary": 116000
+      },
+      {
+       "skill": "python",
+       "share": 0.034,
+       "median_salary": 132800
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.033,
+       "median_salary": 137500
+      },
+      {
+       "skill": "accounting",
+       "share": 0.033,
+       "median_salary": 104000
+      },
+      {
+       "skill": "product-management",
+       "share": 0.032,
+       "median_salary": 152000
+      },
+      {
+       "skill": "typescript",
+       "share": 0.028,
+       "median_salary": 130500
+      },
+      {
+       "skill": "salesforce",
+       "share": 0.027,
+       "median_salary": 130500
+      }
+     ]
+    },
+    "Principal / Staff": {
+     "postings": 571,
+     "salaried": 215,
+     "median_salary": 200000,
+     "top_skills": [
+      {
+       "skill": "communication",
+       "share": 0.466,
+       "median_salary": 214200
+      },
+      {
+       "skill": "project-management",
+       "share": 0.401,
+       "median_salary": 206200
+      },
+      {
+       "skill": "product-management",
+       "share": 0.212,
+       "median_salary": 216200
+      },
+      {
+       "skill": "excel",
+       "share": 0.194,
+       "median_salary": 185000
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.163,
+       "median_salary": 216200
+      },
+      {
+       "skill": "sales",
+       "share": 0.151,
+       "median_salary": 187500
+      },
+      {
+       "skill": "python",
+       "share": 0.096,
+       "median_salary": null
+      },
+      {
+       "skill": "sql",
+       "share": 0.079,
+       "median_salary": null
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.067,
+       "median_salary": 220900
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.06,
+       "median_salary": null
+      },
+      {
+       "skill": "robotics",
+       "share": 0.056,
+       "median_salary": 222000
+      },
+      {
+       "skill": "statistics",
+       "share": 0.051,
+       "median_salary": null
+      },
+      {
+       "skill": "data-science",
+       "share": 0.046,
+       "median_salary": null
+      },
+      {
+       "skill": "tableau",
+       "share": 0.046,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.046,
+       "median_salary": null
+      }
+     ]
+    },
+    "Senior / Lead": {
+     "postings": 6024,
+     "salaried": 1292,
+     "median_salary": 146200,
+     "top_skills": [
+      {
+       "skill": "communication",
+       "share": 0.373,
+       "median_salary": 155000
+      },
+      {
+       "skill": "project-management",
+       "share": 0.335,
+       "median_salary": 147500
+      },
+      {
+       "skill": "excel",
+       "share": 0.207,
+       "median_salary": 130000
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.11,
+       "median_salary": 151500
+      },
+      {
+       "skill": "sales",
+       "share": 0.107,
+       "median_salary": 147500
+      },
+      {
+       "skill": "sql",
+       "share": 0.103,
+       "median_salary": 140000
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.074,
+       "median_salary": 145000
+      },
+      {
+       "skill": "product-management",
+       "share": 0.072,
+       "median_salary": 170000
+      },
+      {
+       "skill": "accounting",
+       "share": 0.055,
+       "median_salary": 130800
+      },
+      {
+       "skill": "sap",
+       "share": 0.052,
+       "median_salary": 120100
+      },
+      {
+       "skill": "python",
+       "share": 0.05,
+       "median_salary": 146200
+      },
+      {
+       "skill": "salesforce",
+       "share": 0.05,
+       "median_salary": 138200
+      },
+      {
+       "skill": "tableau",
+       "share": 0.042,
+       "median_salary": 130500
+      },
+      {
+       "skill": "power-bi",
+       "share": 0.041,
+       "median_salary": 126500
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.04,
+       "median_salary": 157500
+      }
+     ]
+    }
+   }
+  },
+  "Other": {
+   "postings": 56062,
+   "salaried": 2624,
+   "median_salary": 120000,
+   "top_skills": [
+    {
+     "skill": "excel",
+     "share": 0.092,
+     "median_salary": 83200
+    },
+    {
+     "skill": "project-management",
+     "share": 0.058,
+     "median_salary": 120000
+    },
+    {
+     "skill": "recruiting",
+     "share": 0.05,
+     "median_salary": 133600
+    },
+    {
+     "skill": "communication",
+     "share": 0.045,
+     "median_salary": 133600
+    },
+    {
+     "skill": "typescript",
+     "share": 0.031,
+     "median_salary": null
+    },
+    {
+     "skill": "python",
+     "share": 0.03,
+     "median_salary": 163000
+    },
+    {
+     "skill": "sales",
+     "share": 0.023,
+     "median_salary": 122500
+    },
+    {
+     "skill": "crm",
+     "share": 0.023,
+     "median_salary": 122500
+    },
+    {
+     "skill": "sap",
+     "share": 0.022,
+     "median_salary": 145000
+    },
+    {
+     "skill": "customer-success",
+     "share": 0.021,
+     "median_salary": 124700
+    },
+    {
+     "skill": "sql",
+     "share": 0.021,
+     "median_salary": 158800
+    },
+    {
+     "skill": "product-management",
+     "share": 0.02,
+     "median_salary": 153500
+    },
+    {
+     "skill": "qa-testing",
+     "share": 0.016,
+     "median_salary": 106300
+    },
+    {
+     "skill": "llm",
+     "share": 0.016,
+     "median_salary": 152500
+    },
+    {
+     "skill": "machine-learning",
+     "share": 0.015,
+     "median_salary": 208100
+    }
+   ],
+   "by_seniority": {
+    "Director / Executive": {
+     "postings": 263,
+     "salaried": 76,
+     "median_salary": 267500,
+     "top_skills": [
+      {
+       "skill": "product-management",
+       "share": 0.35,
+       "median_salary": 285000
+      },
+      {
+       "skill": "communication",
+       "share": 0.327,
+       "median_salary": 286200
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.141,
+       "median_salary": null
+      },
+      {
+       "skill": "aws",
+       "share": 0.114,
+       "median_salary": null
+      },
+      {
+       "skill": "gcp",
+       "share": 0.106,
+       "median_salary": null
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.103,
+       "median_salary": null
+      },
+      {
+       "skill": "data-engineering",
+       "share": 0.099,
+       "median_salary": null
+      },
+      {
+       "skill": "blockchain",
+       "share": 0.095,
+       "median_salary": null
+      },
+      {
+       "skill": "azure",
+       "share": 0.091,
+       "median_salary": null
+      },
+      {
+       "skill": "sales",
+       "share": 0.087,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.087,
+       "median_salary": null
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.084,
+       "median_salary": null
+      },
+      {
+       "skill": "project-management",
+       "share": 0.08,
+       "median_salary": null
+      },
+      {
+       "skill": "excel",
+       "share": 0.08,
+       "median_salary": null
+      },
+      {
+       "skill": "security",
+       "share": 0.076,
+       "median_salary": null
+      }
+     ]
+    },
+    "Entry / Junior": {
+     "postings": 2575,
+     "salaried": 241,
+     "median_salary": 92500,
+     "top_skills": [
+      {
+       "skill": "excel",
+       "share": 0.188,
+       "median_salary": 80000
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.086,
+       "median_salary": 100800
+      },
+      {
+       "skill": "communication",
+       "share": 0.084,
+       "median_salary": 95000
+      },
+      {
+       "skill": "project-management",
+       "share": 0.078,
+       "median_salary": 92500
+      },
+      {
+       "skill": "crm",
+       "share": 0.058,
+       "median_salary": 76200
+      },
+      {
+       "skill": "sales",
+       "share": 0.056,
+       "median_salary": 112500
+      },
+      {
+       "skill": "accounting",
+       "share": 0.045,
+       "median_salary": null
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.043,
+       "median_salary": 76200
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.042,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.04,
+       "median_salary": null
+      },
+      {
+       "skill": "python",
+       "share": 0.033,
+       "median_salary": null
+      },
+      {
+       "skill": "sql",
+       "share": 0.028,
+       "median_salary": null
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.028,
+       "median_salary": null
+      },
+      {
+       "skill": "data-engineering",
+       "share": 0.028,
+       "median_salary": null
+      },
+      {
+       "skill": "salesforce",
+       "share": 0.023,
+       "median_salary": null
+      }
+     ]
+    },
+    "Mid / Unspecified": {
+     "postings": 49593,
+     "salaried": 1764,
+     "median_salary": 107500,
+     "top_skills": [
+      {
+       "skill": "excel",
+       "share": 0.085,
+       "median_salary": 77500
+      },
+      {
+       "skill": "project-management",
+       "share": 0.047,
+       "median_salary": 107500
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.046,
+       "median_salary": 128900
+      },
+      {
+       "skill": "communication",
+       "share": 0.034,
+       "median_salary": 133600
+      },
+      {
+       "skill": "typescript",
+       "share": 0.032,
+       "median_salary": null
+      },
+      {
+       "skill": "python",
+       "share": 0.026,
+       "median_salary": 150000
+      },
+      {
+       "skill": "sap",
+       "share": 0.021,
+       "median_salary": null
+      },
+      {
+       "skill": "crm",
+       "share": 0.02,
+       "median_salary": 122500
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.019,
+       "median_salary": 120000
+      },
+      {
+       "skill": "sql",
+       "share": 0.017,
+       "median_salary": 150000
+      },
+      {
+       "skill": "sales",
+       "share": 0.017,
+       "median_salary": 122500
+      },
+      {
+       "skill": "product-management",
+       "share": 0.015,
+       "median_salary": 122500
+      },
+      {
+       "skill": "robotics",
+       "share": 0.015,
+       "median_salary": 133800
+      },
+      {
+       "skill": "devops",
+       "share": 0.013,
+       "median_salary": 148400
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.013,
+       "median_salary": 104100
+      }
+     ]
+    },
+    "Principal / Staff": {
+     "postings": 750,
+     "salaried": 170,
+     "median_salary": 191300,
+     "top_skills": [
+      {
+       "skill": "project-management",
+       "share": 0.216,
+       "median_salary": 195800
+      },
+      {
+       "skill": "communication",
+       "share": 0.159,
+       "median_salary": 203000
+      },
+      {
+       "skill": "sales",
+       "share": 0.147,
+       "median_salary": 189600
+      },
+      {
+       "skill": "python",
+       "share": 0.133,
+       "median_salary": 226000
+      },
+      {
+       "skill": "product-management",
+       "share": 0.1,
+       "median_salary": 237800
+      },
+      {
+       "skill": "excel",
+       "share": 0.096,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.075,
+       "median_salary": 177400
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.068,
+       "median_salary": 215000
+      },
+      {
+       "skill": "sql",
+       "share": 0.067,
+       "median_salary": null
+      },
+      {
+       "skill": "gis",
+       "share": 0.06,
+       "median_salary": null
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.059,
+       "median_salary": 250000
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.044,
+       "median_salary": null
+      },
+      {
+       "skill": "ruby",
+       "share": 0.041,
+       "median_salary": null
+      },
+      {
+       "skill": "statistics",
+       "share": 0.039,
+       "median_salary": null
+      },
+      {
+       "skill": "typescript",
+       "share": 0.037,
+       "median_salary": null
+      }
+     ]
+    },
+    "Senior / Lead": {
+     "postings": 2881,
+     "salaried": 373,
+     "median_salary": 136300,
+     "top_skills": [
+      {
+       "skill": "project-management",
+       "share": 0.188,
+       "median_salary": 132500
+      },
+      {
+       "skill": "communication",
+       "share": 0.153,
+       "median_salary": 145000
+      },
+      {
+       "skill": "excel",
+       "share": 0.12,
+       "median_salary": 109500
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.078,
+       "median_salary": 137200
+      },
+      {
+       "skill": "sales",
+       "share": 0.074,
+       "median_salary": 131200
+      },
+      {
+       "skill": "python",
+       "share": 0.067,
+       "median_salary": 163000
+      },
+      {
+       "skill": "sql",
+       "share": 0.066,
+       "median_salary": 163000
+      },
+      {
+       "skill": "product-management",
+       "share": 0.054,
+       "median_salary": 163000
+      },
+      {
+       "skill": "accounting",
+       "share": 0.05,
+       "median_salary": 119000
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.047,
+       "median_salary": null
+      },
+      {
+       "skill": "crm",
+       "share": 0.039,
+       "median_salary": 112500
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.036,
+       "median_salary": 163000
+      },
+      {
+       "skill": "robotics",
+       "share": 0.036,
+       "median_salary": null
+      },
+      {
+       "skill": "salesforce",
+       "share": 0.034,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.034,
+       "median_salary": 141200
+      }
+     ]
+    }
+   }
+  },
+  "People & HR": {
+   "postings": 6617,
+   "salaried": 1362,
+   "median_salary": 140000,
+   "top_skills": [
+    {
+     "skill": "recruiting",
+     "share": 0.478,
+     "median_salary": 145000
+    },
+    {
+     "skill": "communication",
+     "share": 0.191,
+     "median_salary": 152500
+    },
+    {
+     "skill": "excel",
+     "share": 0.144,
+     "median_salary": 125000
+    },
+    {
+     "skill": "project-management",
+     "share": 0.107,
+     "median_salary": 144300
+    },
+    {
+     "skill": "customer-success",
+     "share": 0.039,
+     "median_salary": 130000
+    },
+    {
+     "skill": "llm",
+     "share": 0.037,
+     "median_salary": 166500
+    },
+    {
+     "skill": "product-management",
+     "share": 0.036,
+     "median_salary": 185000
+    },
+    {
+     "skill": "machine-learning",
+     "share": 0.03,
+     "median_salary": 168800
+    },
+    {
+     "skill": "sales",
+     "share": 0.025,
+     "median_salary": 122500
+    },
+    {
+     "skill": "accounting",
+     "share": 0.024,
+     "median_salary": 150600
+    },
+    {
+     "skill": "sap",
+     "share": 0.022,
+     "median_salary": null
+    },
+    {
+     "skill": "robotics",
+     "share": 0.02,
+     "median_salary": 147200
+    },
+    {
+     "skill": "crm",
+     "share": 0.02,
+     "median_salary": 140000
+    },
+    {
+     "skill": "data-science",
+     "share": 0.015,
+     "median_salary": 150000
+    },
+    {
+     "skill": "security",
+     "share": 0.014,
+     "median_salary": 150000
+    }
+   ],
+   "by_seniority": {
+    "Director / Executive": {
+     "postings": 1197,
+     "salaried": 404,
+     "median_salary": 168000,
+     "top_skills": [
+      {
+       "skill": "recruiting",
+       "share": 0.556,
+       "median_salary": 174000
+      },
+      {
+       "skill": "communication",
+       "share": 0.301,
+       "median_salary": 182400
+      },
+      {
+       "skill": "project-management",
+       "share": 0.141,
+       "median_salary": 172200
+      },
+      {
+       "skill": "excel",
+       "share": 0.114,
+       "median_salary": 138800
+      },
+      {
+       "skill": "product-management",
+       "share": 0.068,
+       "median_salary": 222000
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.047,
+       "median_salary": 161100
+      },
+      {
+       "skill": "llm",
+       "share": 0.038,
+       "median_salary": 195000
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.037,
+       "median_salary": 185000
+      },
+      {
+       "skill": "robotics",
+       "share": 0.027,
+       "median_salary": null
+      },
+      {
+       "skill": "security",
+       "share": 0.025,
+       "median_salary": null
+      },
+      {
+       "skill": "sales",
+       "share": 0.024,
+       "median_salary": null
+      },
+      {
+       "skill": "accounting",
+       "share": 0.023,
+       "median_salary": null
+      },
+      {
+       "skill": "salesforce",
+       "share": 0.019,
+       "median_salary": null
+      },
+      {
+       "skill": "spark",
+       "share": 0.018,
+       "median_salary": null
+      },
+      {
+       "skill": "data-science",
+       "share": 0.018,
+       "median_salary": null
+      }
+     ]
+    },
+    "Entry / Junior": {
+     "postings": 542,
+     "salaried": 27,
+     "median_salary": 85000,
+     "top_skills": [
+      {
+       "skill": "recruiting",
+       "share": 0.373,
+       "median_salary": null
+      },
+      {
+       "skill": "excel",
+       "share": 0.251,
+       "median_salary": null
+      },
+      {
+       "skill": "communication",
+       "share": 0.098,
+       "median_salary": null
+      },
+      {
+       "skill": "project-management",
+       "share": 0.083,
+       "median_salary": null
+      },
+      {
+       "skill": "spark",
+       "share": 0.033,
+       "median_salary": null
+      },
+      {
+       "skill": "crm",
+       "share": 0.026,
+       "median_salary": null
+      },
+      {
+       "skill": "sap",
+       "share": 0.024,
+       "median_salary": null
+      },
+      {
+       "skill": "accounting",
+       "share": 0.02,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.02,
+       "median_salary": null
+      },
+      {
+       "skill": "sales",
+       "share": 0.02,
+       "median_salary": null
+      },
+      {
+       "skill": "power-bi",
+       "share": 0.018,
+       "median_salary": null
+      },
+      {
+       "skill": "data-science",
+       "share": 0.017,
+       "median_salary": null
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.015,
+       "median_salary": null
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.013,
+       "median_salary": null
+      },
+      {
+       "skill": "robotics",
+       "share": 0.011,
+       "median_salary": null
+      }
+     ]
+    },
+    "Mid / Unspecified": {
+     "postings": 3856,
+     "salaried": 586,
+     "median_salary": 115000,
+     "top_skills": [
+      {
+       "skill": "recruiting",
+       "share": 0.427,
+       "median_salary": 125000
+      },
+      {
+       "skill": "excel",
+       "share": 0.142,
+       "median_salary": 91700
+      },
+      {
+       "skill": "communication",
+       "share": 0.137,
+       "median_salary": 125000
+      },
+      {
+       "skill": "project-management",
+       "share": 0.089,
+       "median_salary": 107500
+      },
+      {
+       "skill": "llm",
+       "share": 0.04,
+       "median_salary": null
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.032,
+       "median_salary": 130000
+      },
+      {
+       "skill": "sap",
+       "share": 0.024,
+       "median_salary": null
+      },
+      {
+       "skill": "sales",
+       "share": 0.023,
+       "median_salary": null
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.023,
+       "median_salary": 172500
+      },
+      {
+       "skill": "accounting",
+       "share": 0.021,
+       "median_salary": 145000
+      },
+      {
+       "skill": "product-management",
+       "share": 0.021,
+       "median_salary": 108800
+      },
+      {
+       "skill": "crm",
+       "share": 0.02,
+       "median_salary": null
+      },
+      {
+       "skill": "robotics",
+       "share": 0.017,
+       "median_salary": 125000
+      },
+      {
+       "skill": "data-science",
+       "share": 0.011,
+       "median_salary": null
+      },
+      {
+       "skill": "salesforce",
+       "share": 0.011,
+       "median_salary": null
+      }
+     ]
+    },
+    "Principal / Staff": {
+     "postings": 63,
+     "salaried": 22,
+     "median_salary": 171200,
+     "top_skills": [
+      {
+       "skill": "recruiting",
+       "share": 0.81,
+       "median_salary": null
+      },
+      {
+       "skill": "communication",
+       "share": 0.46,
+       "median_salary": null
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.254,
+       "median_salary": null
+      },
+      {
+       "skill": "product-management",
+       "share": 0.127,
+       "median_salary": null
+      },
+      {
+       "skill": "excel",
+       "share": 0.095,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.079,
+       "median_salary": null
+      },
+      {
+       "skill": "project-management",
+       "share": 0.063,
+       "median_salary": null
+      },
+      {
+       "skill": "sales",
+       "share": 0.063,
+       "median_salary": null
+      },
+      {
+       "skill": "security",
+       "share": 0.048,
+       "median_salary": null
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.048,
+       "median_salary": null
+      },
+      {
+       "skill": "spark",
+       "share": 0.048,
+       "median_salary": null
+      },
+      {
+       "skill": "robotics",
+       "share": 0.032,
+       "median_salary": null
+      },
+      {
+       "skill": "databricks",
+       "share": 0.032,
+       "median_salary": null
+      },
+      {
+       "skill": "data-engineering",
+       "share": 0.032,
+       "median_salary": null
+      },
+      {
+       "skill": "data-science",
+       "share": 0.032,
+       "median_salary": null
+      }
+     ]
+    },
+    "Senior / Lead": {
+     "postings": 959,
+     "salaried": 323,
+     "median_salary": 150000,
+     "top_skills": [
+      {
+       "skill": "recruiting",
+       "share": 0.628,
+       "median_salary": 150000
+      },
+      {
+       "skill": "communication",
+       "share": 0.304,
+       "median_salary": 164500
+      },
+      {
+       "skill": "project-management",
+       "share": 0.15,
+       "median_salary": 151200
+      },
+      {
+       "skill": "excel",
+       "share": 0.129,
+       "median_salary": 151200
+      },
+      {
+       "skill": "product-management",
+       "share": 0.071,
+       "median_salary": 168000
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.069,
+       "median_salary": 82100
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.044,
+       "median_salary": null
+      },
+      {
+       "skill": "sql",
+       "share": 0.038,
+       "median_salary": null
+      },
+      {
+       "skill": "accounting",
+       "share": 0.038,
+       "median_salary": 150000
+      },
+      {
+       "skill": "sales",
+       "share": 0.036,
+       "median_salary": null
+      },
+      {
+       "skill": "legal",
+       "share": 0.032,
+       "median_salary": 75600
+      },
+      {
+       "skill": "sap",
+       "share": 0.031,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.03,
+       "median_salary": null
+      },
+      {
+       "skill": "data-science",
+       "share": 0.029,
+       "median_salary": null
+      },
+      {
+       "skill": "robotics",
+       "share": 0.027,
+       "median_salary": null
+      }
+     ]
+    }
+   }
+  },
+  "Product & Design": {
+   "postings": 10200,
+   "salaried": 3248,
+   "median_salary": 190000,
+   "top_skills": [
+    {
+     "skill": "product-management",
+     "share": 0.552,
+     "median_salary": 199000
+    },
+    {
+     "skill": "communication",
+     "share": 0.414,
+     "median_salary": 193500
+    },
+    {
+     "skill": "project-management",
+     "share": 0.185,
+     "median_salary": 160000
+    },
+    {
+     "skill": "figma",
+     "share": 0.177,
+     "median_salary": 173300
+    },
+    {
+     "skill": "ui-ux",
+     "share": 0.164,
+     "median_salary": 190000
+    },
+    {
+     "skill": "recruiting",
+     "share": 0.105,
+     "median_salary": 192500
+    },
+    {
+     "skill": "llm",
+     "share": 0.102,
+     "median_salary": 199000
+    },
+    {
+     "skill": "customer-success",
+     "share": 0.09,
+     "median_salary": 180000
+    },
+    {
+     "skill": "machine-learning",
+     "share": 0.078,
+     "median_salary": 205000
+    },
+    {
+     "skill": "data-science",
+     "share": 0.076,
+     "median_salary": 205200
+    },
+    {
+     "skill": "sql",
+     "share": 0.059,
+     "median_salary": 189600
+    },
+    {
+     "skill": "excel",
+     "share": 0.047,
+     "median_salary": 177500
+    },
+    {
+     "skill": "statistics",
+     "share": 0.037,
+     "median_salary": 190000
+    },
+    {
+     "skill": "crm",
+     "share": 0.032,
+     "median_salary": 165800
+    },
+    {
+     "skill": "blockchain",
+     "share": 0.03,
+     "median_salary": 202500
+    }
+   ],
+   "by_seniority": {
+    "Director / Executive": {
+     "postings": 708,
+     "salaried": 286,
+     "median_salary": 230600,
+     "top_skills": [
+      {
+       "skill": "product-management",
+       "share": 0.651,
+       "median_salary": 242100
+      },
+      {
+       "skill": "communication",
+       "share": 0.559,
+       "median_salary": 232000
+      },
+      {
+       "skill": "project-management",
+       "share": 0.179,
+       "median_salary": 193800
+      },
+      {
+       "skill": "ui-ux",
+       "share": 0.168,
+       "median_salary": 242500
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.129,
+       "median_salary": 232000
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.106,
+       "median_salary": 243000
+      },
+      {
+       "skill": "data-science",
+       "share": 0.106,
+       "median_salary": 242500
+      },
+      {
+       "skill": "llm",
+       "share": 0.083,
+       "median_salary": 249000
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.078,
+       "median_salary": 264600
+      },
+      {
+       "skill": "figma",
+       "share": 0.069,
+       "median_salary": 180900
+      },
+      {
+       "skill": "crm",
+       "share": 0.064,
+       "median_salary": 206200
+      },
+      {
+       "skill": "sales",
+       "share": 0.055,
+       "median_salary": null
+      },
+      {
+       "skill": "marketing",
+       "share": 0.049,
+       "median_salary": null
+      },
+      {
+       "skill": "azure",
+       "share": 0.049,
+       "median_salary": null
+      },
+      {
+       "skill": "salesforce",
+       "share": 0.048,
+       "median_salary": null
+      }
+     ]
+    },
+    "Entry / Junior": {
+     "postings": 311,
+     "salaried": 46,
+     "median_salary": 90000,
+     "top_skills": [
+      {
+       "skill": "product-management",
+       "share": 0.395,
+       "median_salary": 105000
+      },
+      {
+       "skill": "project-management",
+       "share": 0.238,
+       "median_salary": 90000
+      },
+      {
+       "skill": "communication",
+       "share": 0.228,
+       "median_salary": null
+      },
+      {
+       "skill": "figma",
+       "share": 0.158,
+       "median_salary": null
+      },
+      {
+       "skill": "excel",
+       "share": 0.145,
+       "median_salary": null
+      },
+      {
+       "skill": "ui-ux",
+       "share": 0.122,
+       "median_salary": null
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.08,
+       "median_salary": null
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.071,
+       "median_salary": null
+      },
+      {
+       "skill": "sql",
+       "share": 0.064,
+       "median_salary": null
+      },
+      {
+       "skill": "crm",
+       "share": 0.061,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.061,
+       "median_salary": null
+      },
+      {
+       "skill": "python",
+       "share": 0.042,
+       "median_salary": null
+      },
+      {
+       "skill": "spark",
+       "share": 0.039,
+       "median_salary": null
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.035,
+       "median_salary": null
+      },
+      {
+       "skill": "marketing",
+       "share": 0.032,
+       "median_salary": null
+      }
+     ]
+    },
+    "Mid / Unspecified": {
+     "postings": 4683,
+     "salaried": 1086,
+     "median_salary": 165000,
+     "top_skills": [
+      {
+       "skill": "product-management",
+       "share": 0.466,
+       "median_salary": 185000
+      },
+      {
+       "skill": "communication",
+       "share": 0.307,
+       "median_salary": 166500
+      },
+      {
+       "skill": "project-management",
+       "share": 0.197,
+       "median_salary": 140000
+      },
+      {
+       "skill": "figma",
+       "share": 0.178,
+       "median_salary": 155000
+      },
+      {
+       "skill": "ui-ux",
+       "share": 0.14,
+       "median_salary": 156600
+      },
+      {
+       "skill": "llm",
+       "share": 0.087,
+       "median_salary": 191000
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.08,
+       "median_salary": 175000
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.07,
+       "median_salary": 160000
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.057,
+       "median_salary": 181900
+      },
+      {
+       "skill": "excel",
+       "share": 0.054,
+       "median_salary": 154400
+      },
+      {
+       "skill": "sql",
+       "share": 0.051,
+       "median_salary": 162500
+      },
+      {
+       "skill": "data-science",
+       "share": 0.048,
+       "median_salary": 176500
+      },
+      {
+       "skill": "statistics",
+       "share": 0.032,
+       "median_salary": 147500
+      },
+      {
+       "skill": "blockchain",
+       "share": 0.029,
+       "median_salary": null
+      },
+      {
+       "skill": "react",
+       "share": 0.029,
+       "median_salary": 191200
+      }
+     ]
+    },
+    "Principal / Staff": {
+     "postings": 1087,
+     "salaried": 593,
+     "median_salary": 225000,
+     "top_skills": [
+      {
+       "skill": "product-management",
+       "share": 0.749,
+       "median_salary": 225200
+      },
+      {
+       "skill": "communication",
+       "share": 0.571,
+       "median_salary": 224900
+      },
+      {
+       "skill": "ui-ux",
+       "share": 0.194,
+       "median_salary": 225000
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.16,
+       "median_salary": 230000
+      },
+      {
+       "skill": "figma",
+       "share": 0.152,
+       "median_salary": 210200
+      },
+      {
+       "skill": "llm",
+       "share": 0.151,
+       "median_salary": 230000
+      },
+      {
+       "skill": "data-science",
+       "share": 0.147,
+       "median_salary": 230000
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.146,
+       "median_salary": 219400
+      },
+      {
+       "skill": "project-management",
+       "share": 0.119,
+       "median_salary": 208200
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.116,
+       "median_salary": 220800
+      },
+      {
+       "skill": "sql",
+       "share": 0.082,
+       "median_salary": 230000
+      },
+      {
+       "skill": "salesforce",
+       "share": 0.052,
+       "median_salary": 230000
+      },
+      {
+       "skill": "accounting",
+       "share": 0.052,
+       "median_salary": 270000
+      },
+      {
+       "skill": "statistics",
+       "share": 0.051,
+       "median_salary": 224000
+      },
+      {
+       "skill": "data-engineering",
+       "share": 0.049,
+       "median_salary": 224600
+      }
+     ]
+    },
+    "Senior / Lead": {
+     "postings": 3411,
+     "salaried": 1237,
+     "median_salary": 180500,
+     "top_skills": [
+      {
+       "skill": "product-management",
+       "share": 0.6,
+       "median_salary": 187500
+      },
+      {
+       "skill": "communication",
+       "share": 0.498,
+       "median_salary": 184300
+      },
+      {
+       "skill": "figma",
+       "share": 0.207,
+       "median_salary": 170000
+      },
+      {
+       "skill": "ui-ux",
+       "share": 0.19,
+       "median_salary": 181900
+      },
+      {
+       "skill": "project-management",
+       "share": 0.185,
+       "median_salary": 160000
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.122,
+       "median_salary": 185000
+      },
+      {
+       "skill": "llm",
+       "share": 0.115,
+       "median_salary": 185000
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.107,
+       "median_salary": 169500
+      },
+      {
+       "skill": "data-science",
+       "share": 0.09,
+       "median_salary": 193500
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.084,
+       "median_salary": 187500
+      },
+      {
+       "skill": "sql",
+       "share": 0.067,
+       "median_salary": 185900
+      },
+      {
+       "skill": "statistics",
+       "share": 0.042,
+       "median_salary": 190000
+      },
+      {
+       "skill": "crm",
+       "share": 0.036,
+       "median_salary": 165800
+      },
+      {
+       "skill": "ios",
+       "share": 0.035,
+       "median_salary": 168000
+      },
+      {
+       "skill": "data-engineering",
+       "share": 0.035,
+       "median_salary": 190600
+      }
+     ]
+    }
+   }
+  },
+  "Research & Science": {
+   "postings": 6474,
+   "salaried": 1256,
+   "median_salary": 168000,
+   "top_skills": [
+    {
+     "skill": "machine-learning",
+     "share": 0.146,
+     "median_salary": 228100
+    },
+    {
+     "skill": "python",
+     "share": 0.145,
+     "median_salary": 194500
+    },
+    {
+     "skill": "excel",
+     "share": 0.125,
+     "median_salary": 105000
+    },
+    {
+     "skill": "communication",
+     "share": 0.115,
+     "median_salary": 165200
+    },
+    {
+     "skill": "recruiting",
+     "share": 0.074,
+     "median_salary": 185200
+    },
+    {
+     "skill": "llm",
+     "share": 0.072,
+     "median_salary": 261200
+    },
+    {
+     "skill": "statistics",
+     "share": 0.064,
+     "median_salary": 183000
+    },
+    {
+     "skill": "pytorch",
+     "share": 0.059,
+     "median_salary": 247800
+    },
+    {
+     "skill": "project-management",
+     "share": 0.058,
+     "median_salary": 130000
+    },
+    {
+     "skill": "qa-testing",
+     "share": 0.05,
+     "median_salary": 105000
+    },
+    {
+     "skill": "deep-learning",
+     "share": 0.05,
+     "median_salary": 240000
+    },
+    {
+     "skill": "product-management",
+     "share": 0.037,
+     "median_salary": 217300
+    },
+    {
+     "skill": "robotics",
+     "share": 0.032,
+     "median_salary": 212000
+    },
+    {
+     "skill": "data-science",
+     "share": 0.032,
+     "median_salary": 177000
+    },
+    {
+     "skill": "data-engineering",
+     "share": 0.029,
+     "median_salary": 286700
+    }
+   ],
+   "by_seniority": {
+    "Director / Executive": {
+     "postings": 133,
+     "salaried": 63,
+     "median_salary": 235200,
+     "top_skills": [
+      {
+       "skill": "communication",
+       "share": 0.376,
+       "median_salary": 240000
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.165,
+       "median_salary": null
+      },
+      {
+       "skill": "excel",
+       "share": 0.165,
+       "median_salary": null
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.158,
+       "median_salary": null
+      },
+      {
+       "skill": "product-management",
+       "share": 0.158,
+       "median_salary": null
+      },
+      {
+       "skill": "project-management",
+       "share": 0.143,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.113,
+       "median_salary": null
+      },
+      {
+       "skill": "sales",
+       "share": 0.113,
+       "median_salary": null
+      },
+      {
+       "skill": "statistics",
+       "share": 0.098,
+       "median_salary": null
+      },
+      {
+       "skill": "python",
+       "share": 0.083,
+       "median_salary": null
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.053,
+       "median_salary": null
+      },
+      {
+       "skill": "data-science",
+       "share": 0.045,
+       "median_salary": null
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.038,
+       "median_salary": null
+      },
+      {
+       "skill": "gcp",
+       "share": 0.038,
+       "median_salary": null
+      },
+      {
+       "skill": "security",
+       "share": 0.023,
+       "median_salary": null
+      }
+     ]
+    },
+    "Entry / Junior": {
+     "postings": 984,
+     "salaried": 83,
+     "median_salary": 107500,
+     "top_skills": [
+      {
+       "skill": "excel",
+       "share": 0.146,
+       "median_salary": null
+      },
+      {
+       "skill": "python",
+       "share": 0.089,
+       "median_salary": null
+      },
+      {
+       "skill": "communication",
+       "share": 0.08,
+       "median_salary": 118500
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.073,
+       "median_salary": null
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.066,
+       "median_salary": null
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.064,
+       "median_salary": null
+      },
+      {
+       "skill": "statistics",
+       "share": 0.056,
+       "median_salary": null
+      },
+      {
+       "skill": "project-management",
+       "share": 0.041,
+       "median_salary": null
+      },
+      {
+       "skill": "deep-learning",
+       "share": 0.036,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.028,
+       "median_salary": null
+      },
+      {
+       "skill": "pytorch",
+       "share": 0.026,
+       "median_salary": null
+      },
+      {
+       "skill": "data-science",
+       "share": 0.025,
+       "median_salary": null
+      },
+      {
+       "skill": "c++",
+       "share": 0.025,
+       "median_salary": null
+      },
+      {
+       "skill": "robotics",
+       "share": 0.022,
+       "median_salary": null
+      },
+      {
+       "skill": "gcp",
+       "share": 0.022,
+       "median_salary": null
+      }
+     ]
+    },
+    "Mid / Unspecified": {
+     "postings": 4177,
+     "salaried": 669,
+     "median_salary": 171200,
+     "top_skills": [
+      {
+       "skill": "machine-learning",
+       "share": 0.134,
+       "median_salary": 246200
+      },
+      {
+       "skill": "python",
+       "share": 0.128,
+       "median_salary": 200000
+      },
+      {
+       "skill": "excel",
+       "share": 0.12,
+       "median_salary": 105000
+      },
+      {
+       "skill": "communication",
+       "share": 0.077,
+       "median_salary": 155500
+      },
+      {
+       "skill": "llm",
+       "share": 0.075,
+       "median_salary": 275000
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.062,
+       "median_salary": 191500
+      },
+      {
+       "skill": "pytorch",
+       "share": 0.061,
+       "median_salary": 262500
+      },
+      {
+       "skill": "statistics",
+       "share": 0.055,
+       "median_salary": 191500
+      },
+      {
+       "skill": "deep-learning",
+       "share": 0.048,
+       "median_salary": 262500
+      },
+      {
+       "skill": "project-management",
+       "share": 0.046,
+       "median_salary": 131000
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.044,
+       "median_salary": 87400
+      },
+      {
+       "skill": "robotics",
+       "share": 0.031,
+       "median_salary": 213500
+      },
+      {
+       "skill": "data-engineering",
+       "share": 0.029,
+       "median_salary": 300000
+      },
+      {
+       "skill": "sales",
+       "share": 0.025,
+       "median_salary": null
+      },
+      {
+       "skill": "c++",
+       "share": 0.024,
+       "median_salary": 182200
+      }
+     ]
+    },
+    "Principal / Staff": {
+     "postings": 289,
+     "salaried": 150,
+     "median_salary": 203000,
+     "top_skills": [
+      {
+       "skill": "machine-learning",
+       "share": 0.356,
+       "median_salary": 240500
+      },
+      {
+       "skill": "python",
+       "share": 0.332,
+       "median_salary": 229300
+      },
+      {
+       "skill": "communication",
+       "share": 0.315,
+       "median_salary": 197500
+      },
+      {
+       "skill": "llm",
+       "share": 0.156,
+       "median_salary": 280500
+      },
+      {
+       "skill": "project-management",
+       "share": 0.149,
+       "median_salary": null
+      },
+      {
+       "skill": "product-management",
+       "share": 0.145,
+       "median_salary": 242000
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.131,
+       "median_salary": 210000
+      },
+      {
+       "skill": "deep-learning",
+       "share": 0.107,
+       "median_salary": null
+      },
+      {
+       "skill": "statistics",
+       "share": 0.104,
+       "median_salary": 197300
+      },
+      {
+       "skill": "pytorch",
+       "share": 0.087,
+       "median_salary": null
+      },
+      {
+       "skill": "data-science",
+       "share": 0.083,
+       "median_salary": null
+      },
+      {
+       "skill": "gis",
+       "share": 0.083,
+       "median_salary": null
+      },
+      {
+       "skill": "robotics",
+       "share": 0.059,
+       "median_salary": null
+      },
+      {
+       "skill": "data-engineering",
+       "share": 0.055,
+       "median_salary": null
+      },
+      {
+       "skill": "aws",
+       "share": 0.052,
+       "median_salary": null
+      }
+     ]
+    },
+    "Senior / Lead": {
+     "postings": 891,
+     "salaried": 291,
+     "median_salary": 153800,
+     "top_skills": [
+      {
+       "skill": "python",
+       "share": 0.237,
+       "median_salary": 175000
+      },
+      {
+       "skill": "communication",
+       "share": 0.23,
+       "median_salary": 151200
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.209,
+       "median_salary": 187800
+      },
+      {
+       "skill": "excel",
+       "share": 0.14,
+       "median_salary": 98500
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.108,
+       "median_salary": 164300
+      },
+      {
+       "skill": "statistics",
+       "share": 0.1,
+       "median_salary": 172600
+      },
+      {
+       "skill": "project-management",
+       "share": 0.092,
+       "median_salary": 130000
+      },
+      {
+       "skill": "pytorch",
+       "share": 0.081,
+       "median_salary": 200000
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.076,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.075,
+       "median_salary": 200800
+      },
+      {
+       "skill": "product-management",
+       "share": 0.071,
+       "median_salary": 188300
+      },
+      {
+       "skill": "deep-learning",
+       "share": 0.062,
+       "median_salary": 200000
+      },
+      {
+       "skill": "data-science",
+       "share": 0.062,
+       "median_salary": 180000
+      },
+      {
+       "skill": "sql",
+       "share": 0.051,
+       "median_salary": 169000
+      },
+      {
+       "skill": "c++",
+       "share": 0.047,
+       "median_salary": 200000
+      }
+     ]
+    }
+   }
+  },
+  "Retail & Hospitality": {
+   "postings": 22504,
+   "salaried": 587,
+   "median_salary": 80000,
+   "top_skills": [
+    {
+     "skill": "excel",
+     "share": 0.067,
+     "median_salary": 84200
+    },
+    {
+     "skill": "recruiting",
+     "share": 0.052,
+     "median_salary": 84100
+    },
+    {
+     "skill": "swift",
+     "share": 0.016,
+     "median_salary": null
+    },
+    {
+     "skill": "typescript",
+     "share": 0.015,
+     "median_salary": null
+    },
+    {
+     "skill": "spring",
+     "share": 0.014,
+     "median_salary": null
+    },
+    {
+     "skill": "android",
+     "share": 0.011,
+     "median_salary": null
+    },
+    {
+     "skill": "communication",
+     "share": 0.01,
+     "median_salary": 117800
+    },
+    {
+     "skill": "project-management",
+     "share": 0.01,
+     "median_salary": 112800
+    },
+    {
+     "skill": "vue",
+     "share": 0.008,
+     "median_salary": null
+    },
+    {
+     "skill": "qa-testing",
+     "share": 0.006,
+     "median_salary": null
+    },
+    {
+     "skill": "sales",
+     "share": 0.006,
+     "median_salary": null
+    },
+    {
+     "skill": "customer-success",
+     "share": 0.004,
+     "median_salary": null
+    },
+    {
+     "skill": "statistics",
+     "share": 0.004,
+     "median_salary": null
+    },
+    {
+     "skill": "sap",
+     "share": 0.003,
+     "median_salary": null
+    },
+    {
+     "skill": "tableau",
+     "share": 0.003,
+     "median_salary": null
+    }
+   ],
+   "by_seniority": {
+    "Director / Executive": {
+     "postings": 107,
+     "salaried": 28,
+     "median_salary": 182500,
+     "top_skills": [
+      {
+       "skill": "communication",
+       "share": 0.28,
+       "median_salary": null
+      },
+      {
+       "skill": "excel",
+       "share": 0.196,
+       "median_salary": null
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.178,
+       "median_salary": null
+      },
+      {
+       "skill": "product-management",
+       "share": 0.131,
+       "median_salary": null
+      },
+      {
+       "skill": "sales",
+       "share": 0.112,
+       "median_salary": null
+      },
+      {
+       "skill": "project-management",
+       "share": 0.103,
+       "median_salary": null
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.056,
+       "median_salary": null
+      },
+      {
+       "skill": "sap",
+       "share": 0.047,
+       "median_salary": null
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.037,
+       "median_salary": null
+      },
+      {
+       "skill": "aws",
+       "share": 0.028,
+       "median_salary": null
+      },
+      {
+       "skill": "crm",
+       "share": 0.028,
+       "median_salary": null
+      },
+      {
+       "skill": "gis",
+       "share": 0.028,
+       "median_salary": null
+      },
+      {
+       "skill": "azure",
+       "share": 0.019,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.019,
+       "median_salary": null
+      },
+      {
+       "skill": "ci-cd",
+       "share": 0.019,
+       "median_salary": null
+      }
+     ]
+    },
+    "Entry / Junior": {
+     "postings": 956,
+     "salaried": 40,
+     "median_salary": 67500,
+     "top_skills": [
+      {
+       "skill": "recruiting",
+       "share": 0.078,
+       "median_salary": null
+      },
+      {
+       "skill": "excel",
+       "share": 0.043,
+       "median_salary": null
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.023,
+       "median_salary": null
+      },
+      {
+       "skill": "communication",
+       "share": 0.009,
+       "median_salary": null
+      },
+      {
+       "skill": "project-management",
+       "share": 0.009,
+       "median_salary": null
+      },
+      {
+       "skill": "looker",
+       "share": 0.008,
+       "median_salary": null
+      },
+      {
+       "skill": "crm",
+       "share": 0.007,
+       "median_salary": null
+      },
+      {
+       "skill": "etl",
+       "share": 0.007,
+       "median_salary": null
+      },
+      {
+       "skill": "sql",
+       "share": 0.006,
+       "median_salary": null
+      },
+      {
+       "skill": "power-bi",
+       "share": 0.005,
+       "median_salary": null
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.004,
+       "median_salary": null
+      },
+      {
+       "skill": "robotics",
+       "share": 0.004,
+       "median_salary": null
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.004,
+       "median_salary": null
+      },
+      {
+       "skill": "tableau",
+       "share": 0.004,
+       "median_salary": null
+      },
+      {
+       "skill": "data-science",
+       "share": 0.003,
+       "median_salary": null
+      }
+     ]
+    },
+    "Mid / Unspecified": {
+     "postings": 19431,
+     "salaried": 478,
+     "median_salary": 80000,
+     "top_skills": [
+      {
+       "skill": "excel",
+       "share": 0.066,
+       "median_salary": 83200
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.049,
+       "median_salary": 77500
+      },
+      {
+       "skill": "typescript",
+       "share": 0.017,
+       "median_salary": null
+      },
+      {
+       "skill": "spring",
+       "share": 0.016,
+       "median_salary": null
+      },
+      {
+       "skill": "android",
+       "share": 0.013,
+       "median_salary": null
+      },
+      {
+       "skill": "swift",
+       "share": 0.011,
+       "median_salary": null
+      },
+      {
+       "skill": "vue",
+       "share": 0.009,
+       "median_salary": null
+      },
+      {
+       "skill": "project-management",
+       "share": 0.007,
+       "median_salary": null
+      },
+      {
+       "skill": "communication",
+       "share": 0.007,
+       "median_salary": 100000
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.006,
+       "median_salary": null
+      },
+      {
+       "skill": "sales",
+       "share": 0.005,
+       "median_salary": null
+      },
+      {
+       "skill": "statistics",
+       "share": 0.003,
+       "median_salary": null
+      },
+      {
+       "skill": "accounting",
+       "share": 0.003,
+       "median_salary": null
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.003,
+       "median_salary": null
+      },
+      {
+       "skill": "sap",
+       "share": 0.003,
+       "median_salary": null
+      }
+     ]
+    },
+    "Principal / Staff": {
+     "postings": 994,
+     "salaried": 3,
+     "median_salary": null,
+     "top_skills": [
+      {
+       "skill": "swift",
+       "share": 0.152,
+       "median_salary": null
+      },
+      {
+       "skill": "excel",
+       "share": 0.003,
+       "median_salary": null
+      },
+      {
+       "skill": "communication",
+       "share": 0.002,
+       "median_salary": null
+      },
+      {
+       "skill": "spark",
+       "share": 0.002,
+       "median_salary": null
+      },
+      {
+       "skill": "azure",
+       "share": 0.002,
+       "median_salary": null
+      },
+      {
+       "skill": "project-management",
+       "share": 0.001,
+       "median_salary": null
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.001,
+       "median_salary": null
+      },
+      {
+       "skill": "ansible",
+       "share": 0.001,
+       "median_salary": null
+      },
+      {
+       "skill": "terraform",
+       "share": 0.001,
+       "median_salary": null
+      },
+      {
+       "skill": "typescript",
+       "share": 0.001,
+       "median_salary": null
+      }
+     ]
+    },
+    "Senior / Lead": {
+     "postings": 1016,
+     "salaried": 38,
+     "median_salary": 116000,
+     "top_skills": [
+      {
+       "skill": "excel",
+       "share": 0.162,
+       "median_salary": null
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.129,
+       "median_salary": null
+      },
+      {
+       "skill": "project-management",
+       "share": 0.055,
+       "median_salary": null
+      },
+      {
+       "skill": "communication",
+       "share": 0.043,
+       "median_salary": null
+      },
+      {
+       "skill": "tableau",
+       "share": 0.037,
+       "median_salary": null
+      },
+      {
+       "skill": "power-bi",
+       "share": 0.022,
+       "median_salary": null
+      },
+      {
+       "skill": "sql",
+       "share": 0.021,
+       "median_salary": null
+      },
+      {
+       "skill": "data-science",
+       "share": 0.021,
+       "median_salary": null
+      },
+      {
+       "skill": "sales",
+       "share": 0.02,
+       "median_salary": null
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.019,
+       "median_salary": null
+      },
+      {
+       "skill": "statistics",
+       "share": 0.014,
+       "median_salary": null
+      },
+      {
+       "skill": "sap",
+       "share": 0.013,
+       "median_salary": null
+      },
+      {
+       "skill": "marketing",
+       "share": 0.012,
+       "median_salary": null
+      },
+      {
+       "skill": "unity",
+       "share": 0.011,
+       "median_salary": null
+      },
+      {
+       "skill": "typescript",
+       "share": 0.008,
+       "median_salary": null
+      }
+     ]
+    }
+   }
+  },
+  "Sales & Business Dev.": {
+   "postings": 44972,
+   "salaried": 9405,
+   "median_salary": 140100,
+   "top_skills": [
+    {
+     "skill": "sales",
+     "share": 0.311,
+     "median_salary": 145000
+    },
+    {
+     "skill": "crm",
+     "share": 0.18,
+     "median_salary": 123400
+    },
+    {
+     "skill": "communication",
+     "share": 0.136,
+     "median_salary": 162500
+    },
+    {
+     "skill": "salesforce",
+     "share": 0.126,
+     "median_salary": 140000
+    },
+    {
+     "skill": "customer-success",
+     "share": 0.124,
+     "median_salary": 165000
+    },
+    {
+     "skill": "recruiting",
+     "share": 0.119,
+     "median_salary": 146400
+    },
+    {
+     "skill": "excel",
+     "share": 0.117,
+     "median_salary": 116100
+    },
+    {
+     "skill": "product-management",
+     "share": 0.072,
+     "median_salary": 180000
+    },
+    {
+     "skill": "project-management",
+     "share": 0.061,
+     "median_salary": 135000
+    },
+    {
+     "skill": "hubspot",
+     "share": 0.039,
+     "median_salary": 100000
+    },
+    {
+     "skill": "security",
+     "share": 0.027,
+     "median_salary": 170000
+    },
+    {
+     "skill": "llm",
+     "share": 0.025,
+     "median_salary": 185000
+    },
+    {
+     "skill": "python",
+     "share": 0.023,
+     "median_salary": 157500
+    },
+    {
+     "skill": "aws",
+     "share": 0.023,
+     "median_salary": 172500
+    },
+    {
+     "skill": "sql",
+     "share": 0.022,
+     "median_salary": 155500
+    }
+   ],
+   "by_seniority": {
+    "Director / Executive": {
+     "postings": 3101,
+     "salaried": 1256,
+     "median_salary": 190000,
+     "top_skills": [
+      {
+       "skill": "sales",
+       "share": 0.395,
+       "median_salary": 170000
+      },
+      {
+       "skill": "communication",
+       "share": 0.321,
+       "median_salary": 208000
+      },
+      {
+       "skill": "crm",
+       "share": 0.201,
+       "median_salary": 190000
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.181,
+       "median_salary": 193000
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.181,
+       "median_salary": 203000
+      },
+      {
+       "skill": "product-management",
+       "share": 0.151,
+       "median_salary": 214500
+      },
+      {
+       "skill": "salesforce",
+       "share": 0.143,
+       "median_salary": 200000
+      },
+      {
+       "skill": "hubspot",
+       "share": 0.115,
+       "median_salary": 75000
+      },
+      {
+       "skill": "project-management",
+       "share": 0.08,
+       "median_salary": 205000
+      },
+      {
+       "skill": "excel",
+       "share": 0.074,
+       "median_salary": 175000
+      },
+      {
+       "skill": "security",
+       "share": 0.04,
+       "median_salary": 225000
+      },
+      {
+       "skill": "llm",
+       "share": 0.037,
+       "median_salary": 193200
+      },
+      {
+       "skill": "accounting",
+       "share": 0.03,
+       "median_salary": 145000
+      },
+      {
+       "skill": "aws",
+       "share": 0.027,
+       "median_salary": 216600
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.027,
+       "median_salary": 200000
+      }
+     ]
+    },
+    "Entry / Junior": {
+     "postings": 4607,
+     "salaried": 391,
+     "median_salary": 75000,
+     "top_skills": [
+      {
+       "skill": "excel",
+       "share": 0.154,
+       "median_salary": 117500
+      },
+      {
+       "skill": "sales",
+       "share": 0.117,
+       "median_salary": 75000
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.104,
+       "median_salary": 78200
+      },
+      {
+       "skill": "crm",
+       "share": 0.094,
+       "median_salary": 77500
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.083,
+       "median_salary": 85000
+      },
+      {
+       "skill": "salesforce",
+       "share": 0.043,
+       "median_salary": 85000
+      },
+      {
+       "skill": "communication",
+       "share": 0.039,
+       "median_salary": 91000
+      },
+      {
+       "skill": "project-management",
+       "share": 0.031,
+       "median_salary": 90900
+      },
+      {
+       "skill": "product-management",
+       "share": 0.02,
+       "median_salary": null
+      },
+      {
+       "skill": "robotics",
+       "share": 0.017,
+       "median_salary": null
+      },
+      {
+       "skill": "spark",
+       "share": 0.014,
+       "median_salary": null
+      },
+      {
+       "skill": "sql",
+       "share": 0.012,
+       "median_salary": null
+      },
+      {
+       "skill": "power-bi",
+       "share": 0.01,
+       "median_salary": null
+      },
+      {
+       "skill": "python",
+       "share": 0.01,
+       "median_salary": null
+      },
+      {
+       "skill": "hubspot",
+       "share": 0.01,
+       "median_salary": null
+      }
+     ]
+    },
+    "Mid / Unspecified": {
+     "postings": 32472,
+     "salaried": 6354,
+     "median_salary": 130000,
+     "top_skills": [
+      {
+       "skill": "sales",
+       "share": 0.317,
+       "median_salary": 140000
+      },
+      {
+       "skill": "crm",
+       "share": 0.186,
+       "median_salary": 110000
+      },
+      {
+       "skill": "salesforce",
+       "share": 0.13,
+       "median_salary": 130000
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.118,
+       "median_salary": 160000
+      },
+      {
+       "skill": "excel",
+       "share": 0.114,
+       "median_salary": 105000
+      },
+      {
+       "skill": "communication",
+       "share": 0.11,
+       "median_salary": 150000
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.107,
+       "median_salary": 136000
+      },
+      {
+       "skill": "product-management",
+       "share": 0.058,
+       "median_salary": 168000
+      },
+      {
+       "skill": "project-management",
+       "share": 0.056,
+       "median_salary": 122600
+      },
+      {
+       "skill": "hubspot",
+       "share": 0.037,
+       "median_salary": 112500
+      },
+      {
+       "skill": "security",
+       "share": 0.025,
+       "median_salary": 160000
+      },
+      {
+       "skill": "llm",
+       "share": 0.023,
+       "median_salary": 180400
+      },
+      {
+       "skill": "python",
+       "share": 0.021,
+       "median_salary": 153200
+      },
+      {
+       "skill": "accounting",
+       "share": 0.021,
+       "median_salary": 151900
+      },
+      {
+       "skill": "aws",
+       "share": 0.019,
+       "median_salary": 162100
+      }
+     ]
+    },
+    "Principal / Staff": {
+     "postings": 227,
+     "salaried": 69,
+     "median_salary": 198900,
+     "top_skills": [
+      {
+       "skill": "sales",
+       "share": 0.291,
+       "median_salary": null
+      },
+      {
+       "skill": "communication",
+       "share": 0.256,
+       "median_salary": 202500
+      },
+      {
+       "skill": "product-management",
+       "share": 0.242,
+       "median_salary": 197000
+      },
+      {
+       "skill": "project-management",
+       "share": 0.159,
+       "median_salary": null
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.15,
+       "median_salary": null
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.145,
+       "median_salary": null
+      },
+      {
+       "skill": "sql",
+       "share": 0.119,
+       "median_salary": null
+      },
+      {
+       "skill": "crm",
+       "share": 0.11,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.101,
+       "median_salary": null
+      },
+      {
+       "skill": "security",
+       "share": 0.097,
+       "median_salary": null
+      },
+      {
+       "skill": "aws",
+       "share": 0.097,
+       "median_salary": null
+      },
+      {
+       "skill": "python",
+       "share": 0.093,
+       "median_salary": null
+      },
+      {
+       "skill": "salesforce",
+       "share": 0.088,
+       "median_salary": null
+      },
+      {
+       "skill": "excel",
+       "share": 0.066,
+       "median_salary": null
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.062,
+       "median_salary": null
+      }
+     ]
+    },
+    "Senior / Lead": {
+     "postings": 4565,
+     "salaried": 1335,
+     "median_salary": 160000,
+     "top_skills": [
+      {
+       "skill": "sales",
+       "share": 0.405,
+       "median_salary": 153800
+      },
+      {
+       "skill": "communication",
+       "share": 0.291,
+       "median_salary": 160500
+      },
+      {
+       "skill": "crm",
+       "share": 0.21,
+       "median_salary": 140000
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.17,
+       "median_salary": 154300
+      },
+      {
+       "skill": "salesforce",
+       "share": 0.168,
+       "median_salary": 145000
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.167,
+       "median_salary": 162500
+      },
+      {
+       "skill": "product-management",
+       "share": 0.164,
+       "median_salary": 180500
+      },
+      {
+       "skill": "excel",
+       "share": 0.13,
+       "median_salary": 143000
+      },
+      {
+       "skill": "project-management",
+       "share": 0.11,
+       "median_salary": 142800
+      },
+      {
+       "skill": "aws",
+       "share": 0.059,
+       "median_salary": 171800
+      },
+      {
+       "skill": "sql",
+       "share": 0.058,
+       "median_salary": 156900
+      },
+      {
+       "skill": "python",
+       "share": 0.055,
+       "median_salary": 160400
+      },
+      {
+       "skill": "security",
+       "share": 0.054,
+       "median_salary": 188100
+      },
+      {
+       "skill": "llm",
+       "share": 0.046,
+       "median_salary": 185000
+      },
+      {
+       "skill": "azure",
+       "share": 0.045,
+       "median_salary": 165900
+      }
+     ]
+    }
+   }
+  },
+  "Security": {
+   "postings": 6211,
+   "salaried": 1440,
+   "median_salary": 188300,
+   "top_skills": [
+    {
+     "skill": "security",
+     "share": 0.424,
+     "median_salary": 183600
+    },
+    {
+     "skill": "aws",
+     "share": 0.251,
+     "median_salary": 198800
+    },
+    {
+     "skill": "python",
+     "share": 0.224,
+     "median_salary": 197500
+    },
+    {
+     "skill": "recruiting",
+     "share": 0.175,
+     "median_salary": 190000
+    },
+    {
+     "skill": "azure",
+     "share": 0.166,
+     "median_salary": 193000
+    },
+    {
+     "skill": "gcp",
+     "share": 0.151,
+     "median_salary": 203500
+    },
+    {
+     "skill": "communication",
+     "share": 0.145,
+     "median_salary": 200000
+    },
+    {
+     "skill": "ci-cd",
+     "share": 0.14,
+     "median_salary": 203800
+    },
+    {
+     "skill": "kubernetes",
+     "share": 0.11,
+     "median_salary": 204500
+    },
+    {
+     "skill": "project-management",
+     "share": 0.109,
+     "median_salary": 174200
+    },
+    {
+     "skill": "linux",
+     "share": 0.101,
+     "median_salary": 175600
+    },
+    {
+     "skill": "terraform",
+     "share": 0.088,
+     "median_salary": 198200
+    },
+    {
+     "skill": "product-management",
+     "share": 0.087,
+     "median_salary": 213600
+    },
+    {
+     "skill": "llm",
+     "share": 0.081,
+     "median_salary": 221000
+    },
+    {
+     "skill": "devops",
+     "share": 0.081,
+     "median_salary": 203500
+    }
+   ],
+   "by_seniority": {
+    "Director / Executive": {
+     "postings": 208,
+     "salaried": 90,
+     "median_salary": 239500,
+     "top_skills": [
+      {
+       "skill": "security",
+       "share": 0.659,
+       "median_salary": 238900
+      },
+      {
+       "skill": "product-management",
+       "share": 0.317,
+       "median_salary": 240000
+      },
+      {
+       "skill": "communication",
+       "share": 0.312,
+       "median_salary": 235900
+      },
+      {
+       "skill": "aws",
+       "share": 0.226,
+       "median_salary": 229200
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.197,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.115,
+       "median_salary": null
+      },
+      {
+       "skill": "gcp",
+       "share": 0.111,
+       "median_salary": null
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.106,
+       "median_salary": null
+      },
+      {
+       "skill": "azure",
+       "share": 0.101,
+       "median_salary": null
+      },
+      {
+       "skill": "ci-cd",
+       "share": 0.096,
+       "median_salary": null
+      },
+      {
+       "skill": "project-management",
+       "share": 0.087,
+       "median_salary": null
+      },
+      {
+       "skill": "kubernetes",
+       "share": 0.072,
+       "median_salary": null
+      },
+      {
+       "skill": "blockchain",
+       "share": 0.062,
+       "median_salary": null
+      },
+      {
+       "skill": "devops",
+       "share": 0.058,
+       "median_salary": null
+      },
+      {
+       "skill": "sales",
+       "share": 0.053,
+       "median_salary": null
+      }
+     ]
+    },
+    "Entry / Junior": {
+     "postings": 150,
+     "salaried": 6,
+     "median_salary": null,
+     "top_skills": [
+      {
+       "skill": "security",
+       "share": 0.393,
+       "median_salary": null
+      },
+      {
+       "skill": "project-management",
+       "share": 0.253,
+       "median_salary": null
+      },
+      {
+       "skill": "python",
+       "share": 0.107,
+       "median_salary": null
+      },
+      {
+       "skill": "linux",
+       "share": 0.1,
+       "median_salary": null
+      },
+      {
+       "skill": "aws",
+       "share": 0.087,
+       "median_salary": null
+      },
+      {
+       "skill": "gcp",
+       "share": 0.08,
+       "median_salary": null
+      },
+      {
+       "skill": "azure",
+       "share": 0.067,
+       "median_salary": null
+      },
+      {
+       "skill": "communication",
+       "share": 0.06,
+       "median_salary": null
+      },
+      {
+       "skill": "sales",
+       "share": 0.06,
+       "median_salary": null
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.047,
+       "median_salary": null
+      },
+      {
+       "skill": "excel",
+       "share": 0.04,
+       "median_salary": null
+      },
+      {
+       "skill": "power-bi",
+       "share": 0.033,
+       "median_salary": null
+      },
+      {
+       "skill": "ci-cd",
+       "share": 0.033,
+       "median_salary": null
+      },
+      {
+       "skill": "java",
+       "share": 0.033,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.033,
+       "median_salary": null
+      }
+     ]
+    },
+    "Mid / Unspecified": {
+     "postings": 4036,
+     "salaried": 650,
+     "median_salary": 167500,
+     "top_skills": [
+      {
+       "skill": "security",
+       "share": 0.345,
+       "median_salary": 159100
+      },
+      {
+       "skill": "aws",
+       "share": 0.185,
+       "median_salary": 172500
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.167,
+       "median_salary": 173400
+      },
+      {
+       "skill": "python",
+       "share": 0.165,
+       "median_salary": 173400
+      },
+      {
+       "skill": "azure",
+       "share": 0.138,
+       "median_salary": 167500
+      },
+      {
+       "skill": "gcp",
+       "share": 0.103,
+       "median_salary": 175000
+      },
+      {
+       "skill": "project-management",
+       "share": 0.098,
+       "median_salary": 151800
+      },
+      {
+       "skill": "ci-cd",
+       "share": 0.097,
+       "median_salary": 194500
+      },
+      {
+       "skill": "linux",
+       "share": 0.096,
+       "median_salary": 162500
+      },
+      {
+       "skill": "communication",
+       "share": 0.092,
+       "median_salary": 173500
+      },
+      {
+       "skill": "excel",
+       "share": 0.073,
+       "median_salary": 142500
+      },
+      {
+       "skill": "kubernetes",
+       "share": 0.071,
+       "median_salary": 188400
+      },
+      {
+       "skill": "devops",
+       "share": 0.066,
+       "median_salary": 194800
+      },
+      {
+       "skill": "llm",
+       "share": 0.065,
+       "median_salary": 204800
+      },
+      {
+       "skill": "terraform",
+       "share": 0.058,
+       "median_salary": 186900
+      }
+     ]
+    },
+    "Principal / Staff": {
+     "postings": 403,
+     "salaried": 204,
+     "median_salary": 231300,
+     "top_skills": [
+      {
+       "skill": "security",
+       "share": 0.578,
+       "median_salary": 222500
+      },
+      {
+       "skill": "python",
+       "share": 0.481,
+       "median_salary": 235500
+      },
+      {
+       "skill": "aws",
+       "share": 0.471,
+       "median_salary": 230500
+      },
+      {
+       "skill": "communication",
+       "share": 0.347,
+       "median_salary": 236000
+      },
+      {
+       "skill": "ci-cd",
+       "share": 0.308,
+       "median_salary": 230200
+      },
+      {
+       "skill": "gcp",
+       "share": 0.298,
+       "median_salary": 234000
+      },
+      {
+       "skill": "kubernetes",
+       "share": 0.273,
+       "median_salary": 232500
+      },
+      {
+       "skill": "azure",
+       "share": 0.238,
+       "median_salary": 231500
+      },
+      {
+       "skill": "llm",
+       "share": 0.238,
+       "median_salary": 240000
+      },
+      {
+       "skill": "product-management",
+       "share": 0.231,
+       "median_salary": 250000
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.218,
+       "median_salary": 223000
+      },
+      {
+       "skill": "terraform",
+       "share": 0.186,
+       "median_salary": 213500
+      },
+      {
+       "skill": "devops",
+       "share": 0.174,
+       "median_salary": 210300
+      },
+      {
+       "skill": "java",
+       "share": 0.166,
+       "median_salary": 233300
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.122,
+       "median_salary": 231200
+      }
+     ]
+    },
+    "Senior / Lead": {
+     "postings": 1414,
+     "salaried": 490,
+     "median_salary": 189300,
+     "top_skills": [
+      {
+       "skill": "security",
+       "share": 0.571,
+       "median_salary": 185900
+      },
+      {
+       "skill": "aws",
+       "share": 0.401,
+       "median_salary": 197500
+      },
+      {
+       "skill": "python",
+       "share": 0.359,
+       "median_salary": 194000
+      },
+      {
+       "skill": "gcp",
+       "share": 0.26,
+       "median_salary": 203500
+      },
+      {
+       "skill": "azure",
+       "share": 0.246,
+       "median_salary": 200800
+      },
+      {
+       "skill": "ci-cd",
+       "share": 0.233,
+       "median_salary": 193000
+      },
+      {
+       "skill": "communication",
+       "share": 0.223,
+       "median_salary": 192000
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.193,
+       "median_salary": 193000
+      },
+      {
+       "skill": "kubernetes",
+       "share": 0.191,
+       "median_salary": 193000
+      },
+      {
+       "skill": "terraform",
+       "share": 0.161,
+       "median_salary": 192000
+      },
+      {
+       "skill": "project-management",
+       "share": 0.128,
+       "median_salary": 191500
+      },
+      {
+       "skill": "linux",
+       "share": 0.127,
+       "median_salary": 187700
+      },
+      {
+       "skill": "product-management",
+       "share": 0.117,
+       "median_salary": 192000
+      },
+      {
+       "skill": "devops",
+       "share": 0.108,
+       "median_salary": 192000
+      },
+      {
+       "skill": "java",
+       "share": 0.09,
+       "median_salary": 193700
+      }
+     ]
+    }
+   }
+  },
+  "Skilled Trades & Field": {
+   "postings": 20320,
+   "salaried": 842,
+   "median_salary": 84500,
+   "top_skills": [
+    {
+     "skill": "excel",
+     "share": 0.075,
+     "median_salary": 92500
+    },
+    {
+     "skill": "recruiting",
+     "share": 0.051,
+     "median_salary": 112800
+    },
+    {
+     "skill": "project-management",
+     "share": 0.035,
+     "median_salary": 147500
+    },
+    {
+     "skill": "robotics",
+     "share": 0.019,
+     "median_salary": 90000
+    },
+    {
+     "skill": "communication",
+     "share": 0.018,
+     "median_salary": 130000
+    },
+    {
+     "skill": "qa-testing",
+     "share": 0.017,
+     "median_salary": null
+    },
+    {
+     "skill": "sap",
+     "share": 0.015,
+     "median_salary": null
+    },
+    {
+     "skill": "typescript",
+     "share": 0.013,
+     "median_salary": null
+    },
+    {
+     "skill": "accounting",
+     "share": 0.009,
+     "median_salary": 65500
+    },
+    {
+     "skill": "hardware",
+     "share": 0.007,
+     "median_salary": null
+    },
+    {
+     "skill": "aws",
+     "share": 0.006,
+     "median_salary": null
+    },
+    {
+     "skill": "sales",
+     "share": 0.006,
+     "median_salary": 52500
+    },
+    {
+     "skill": "vue",
+     "share": 0.005,
+     "median_salary": null
+    },
+    {
+     "skill": "spark",
+     "share": 0.005,
+     "median_salary": null
+    },
+    {
+     "skill": "python",
+     "share": 0.004,
+     "median_salary": 81500
+    }
+   ],
+   "by_seniority": {
+    "Director / Executive": {
+     "postings": 189,
+     "salaried": 51,
+     "median_salary": 170000,
+     "top_skills": [
+      {
+       "skill": "project-management",
+       "share": 0.407,
+       "median_salary": 197500
+      },
+      {
+       "skill": "communication",
+       "share": 0.212,
+       "median_salary": null
+      },
+      {
+       "skill": "sales",
+       "share": 0.185,
+       "median_salary": null
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.138,
+       "median_salary": null
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.132,
+       "median_salary": null
+      },
+      {
+       "skill": "excel",
+       "share": 0.101,
+       "median_salary": null
+      },
+      {
+       "skill": "typescript",
+       "share": 0.074,
+       "median_salary": null
+      },
+      {
+       "skill": "power-bi",
+       "share": 0.037,
+       "median_salary": null
+      },
+      {
+       "skill": "financial-analysis",
+       "share": 0.026,
+       "median_salary": null
+      },
+      {
+       "skill": "legal",
+       "share": 0.021,
+       "median_salary": null
+      },
+      {
+       "skill": "product-management",
+       "share": 0.016,
+       "median_salary": null
+      },
+      {
+       "skill": "security",
+       "share": 0.016,
+       "median_salary": null
+      },
+      {
+       "skill": "aws",
+       "share": 0.011,
+       "median_salary": null
+      },
+      {
+       "skill": "databricks",
+       "share": 0.011,
+       "median_salary": null
+      },
+      {
+       "skill": "snowflake",
+       "share": 0.011,
+       "median_salary": null
+      }
+     ]
+    },
+    "Entry / Junior": {
+     "postings": 785,
+     "salaried": 25,
+     "median_salary": 60900,
+     "top_skills": [
+      {
+       "skill": "recruiting",
+       "share": 0.107,
+       "median_salary": null
+      },
+      {
+       "skill": "excel",
+       "share": 0.092,
+       "median_salary": null
+      },
+      {
+       "skill": "sap",
+       "share": 0.024,
+       "median_salary": null
+      },
+      {
+       "skill": "communication",
+       "share": 0.02,
+       "median_salary": null
+      },
+      {
+       "skill": "customer-success",
+       "share": 0.02,
+       "median_salary": null
+      },
+      {
+       "skill": "robotics",
+       "share": 0.018,
+       "median_salary": null
+      },
+      {
+       "skill": "project-management",
+       "share": 0.017,
+       "median_salary": null
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.015,
+       "median_salary": null
+      },
+      {
+       "skill": "spark",
+       "share": 0.014,
+       "median_salary": null
+      },
+      {
+       "skill": "computer-vision",
+       "share": 0.011,
+       "median_salary": null
+      },
+      {
+       "skill": "sales",
+       "share": 0.01,
+       "median_salary": null
+      },
+      {
+       "skill": "sql",
+       "share": 0.009,
+       "median_salary": null
+      },
+      {
+       "skill": "typescript",
+       "share": 0.008,
+       "median_salary": null
+      },
+      {
+       "skill": "power-bi",
+       "share": 0.008,
+       "median_salary": null
+      },
+      {
+       "skill": "python",
+       "share": 0.006,
+       "median_salary": null
+      }
+     ]
+    },
+    "Mid / Unspecified": {
+     "postings": 18176,
+     "salaried": 646,
+     "median_salary": 80000,
+     "top_skills": [
+      {
+       "skill": "excel",
+       "share": 0.068,
+       "median_salary": 80000
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.044,
+       "median_salary": 86500
+      },
+      {
+       "skill": "project-management",
+       "share": 0.026,
+       "median_salary": 111800
+      },
+      {
+       "skill": "robotics",
+       "share": 0.018,
+       "median_salary": 92500
+      },
+      {
+       "skill": "typescript",
+       "share": 0.013,
+       "median_salary": null
+      },
+      {
+       "skill": "sap",
+       "share": 0.013,
+       "median_salary": null
+      },
+      {
+       "skill": "communication",
+       "share": 0.013,
+       "median_salary": 93800
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.013,
+       "median_salary": null
+      },
+      {
+       "skill": "accounting",
+       "share": 0.01,
+       "median_salary": 65400
+      },
+      {
+       "skill": "hardware",
+       "share": 0.007,
+       "median_salary": null
+      },
+      {
+       "skill": "vue",
+       "share": 0.006,
+       "median_salary": null
+      },
+      {
+       "skill": "aws",
+       "share": 0.006,
+       "median_salary": null
+      },
+      {
+       "skill": "spark",
+       "share": 0.005,
+       "median_salary": null
+      },
+      {
+       "skill": "python",
+       "share": 0.004,
+       "median_salary": 75000
+      },
+      {
+       "skill": "linux",
+       "share": 0.004,
+       "median_salary": null
+      }
+     ]
+    },
+    "Senior / Lead": {
+     "postings": 1152,
+     "salaried": 117,
+     "median_salary": 123200,
+     "top_skills": [
+      {
+       "skill": "excel",
+       "share": 0.181,
+       "median_salary": 150000
+      },
+      {
+       "skill": "project-management",
+       "share": 0.128,
+       "median_salary": 167000
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.094,
+       "median_salary": 143000
+      },
+      {
+       "skill": "qa-testing",
+       "share": 0.075,
+       "median_salary": null
+      },
+      {
+       "skill": "communication",
+       "share": 0.071,
+       "median_salary": 138100
+      },
+      {
+       "skill": "robotics",
+       "share": 0.045,
+       "median_salary": null
+      },
+      {
+       "skill": "sap",
+       "share": 0.038,
+       "median_salary": null
+      },
+      {
+       "skill": "security",
+       "share": 0.016,
+       "median_salary": null
+      },
+      {
+       "skill": "sales",
+       "share": 0.014,
+       "median_salary": null
+      },
+      {
+       "skill": "computer-vision",
+       "share": 0.011,
+       "median_salary": null
+      },
+      {
+       "skill": "accounting",
+       "share": 0.01,
+       "median_salary": null
+      },
+      {
+       "skill": "tableau",
+       "share": 0.009,
+       "median_salary": null
+      },
+      {
+       "skill": "aws",
+       "share": 0.008,
+       "median_salary": null
+      },
+      {
+       "skill": "spark",
+       "share": 0.008,
+       "median_salary": null
+      },
+      {
+       "skill": "hardware",
+       "share": 0.007,
+       "median_salary": null
+      }
+     ]
+    }
+   }
+  },
+  "Software Engineering": {
+   "postings": 42703,
+   "salaried": 11481,
+   "median_salary": 195000,
+   "top_skills": [
+    {
+     "skill": "python",
+     "share": 0.309,
+     "median_salary": 193000
+    },
+    {
+     "skill": "aws",
+     "share": 0.27,
+     "median_salary": 195000
+    },
+    {
+     "skill": "ci-cd",
+     "share": 0.269,
+     "median_salary": 190000
+    },
+    {
+     "skill": "sql",
+     "share": 0.24,
+     "median_salary": 193700
+    },
+    {
+     "skill": "project-management",
+     "share": 0.227,
+     "median_salary": 165000
+    },
+    {
+     "skill": "communication",
+     "share": 0.223,
+     "median_salary": 197500
+    },
+    {
+     "skill": "kubernetes",
+     "share": 0.205,
+     "median_salary": 197500
+    },
+    {
+     "skill": "java",
+     "share": 0.191,
+     "median_salary": 192500
+    },
+    {
+     "skill": "devops",
+     "share": 0.179,
+     "median_salary": 183000
+    },
+    {
+     "skill": "react",
+     "share": 0.161,
+     "median_salary": 196000
+    },
+    {
+     "skill": "docker",
+     "share": 0.154,
+     "median_salary": 177500
+    },
+    {
+     "skill": "azure",
+     "share": 0.154,
+     "median_salary": 190000
+    },
+    {
+     "skill": "typescript",
+     "share": 0.149,
+     "median_salary": 200000
+    },
+    {
+     "skill": "product-management",
+     "share": 0.143,
+     "median_salary": 211000
+    },
+    {
+     "skill": "gcp",
+     "share": 0.141,
+     "median_salary": 195000
+    }
+   ],
+   "by_seniority": {
+    "Director / Executive": {
+     "postings": 556,
+     "salaried": 212,
+     "median_salary": 227100,
+     "top_skills": [
+      {
+       "skill": "product-management",
+       "share": 0.372,
+       "median_salary": 235500
+      },
+      {
+       "skill": "communication",
+       "share": 0.353,
+       "median_salary": 235700
+      },
+      {
+       "skill": "aws",
+       "share": 0.275,
+       "median_salary": 240600
+      },
+      {
+       "skill": "python",
+       "share": 0.198,
+       "median_salary": 205000
+      },
+      {
+       "skill": "project-management",
+       "share": 0.182,
+       "median_salary": 219000
+      },
+      {
+       "skill": "azure",
+       "share": 0.171,
+       "median_salary": 245300
+      },
+      {
+       "skill": "devops",
+       "share": 0.164,
+       "median_salary": 240000
+      },
+      {
+       "skill": "ci-cd",
+       "share": 0.153,
+       "median_salary": 250000
+      },
+      {
+       "skill": "gcp",
+       "share": 0.151,
+       "median_salary": 250000
+      },
+      {
+       "skill": "sql",
+       "share": 0.149,
+       "median_salary": 225000
+      },
+      {
+       "skill": "llm",
+       "share": 0.142,
+       "median_salary": 240000
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.126,
+       "median_salary": 255600
+      },
+      {
+       "skill": "kubernetes",
+       "share": 0.122,
+       "median_salary": 237400
+      },
+      {
+       "skill": "security",
+       "share": 0.122,
+       "median_salary": 243200
+      },
+      {
+       "skill": "java",
+       "share": 0.11,
+       "median_salary": null
+      }
+     ]
+    },
+    "Entry / Junior": {
+     "postings": 1137,
+     "salaried": 136,
+     "median_salary": 106800,
+     "top_skills": [
+      {
+       "skill": "python",
+       "share": 0.365,
+       "median_salary": 120000
+      },
+      {
+       "skill": "project-management",
+       "share": 0.233,
+       "median_salary": 91700
+      },
+      {
+       "skill": "java",
+       "share": 0.224,
+       "median_salary": 109300
+      },
+      {
+       "skill": "sql",
+       "share": 0.195,
+       "median_salary": null
+      },
+      {
+       "skill": "ci-cd",
+       "share": 0.171,
+       "median_salary": 110000
+      },
+      {
+       "skill": "aws",
+       "share": 0.157,
+       "median_salary": 125000
+      },
+      {
+       "skill": "c++",
+       "share": 0.149,
+       "median_salary": 140000
+      },
+      {
+       "skill": "communication",
+       "share": 0.144,
+       "median_salary": 111500
+      },
+      {
+       "skill": "react",
+       "share": 0.141,
+       "median_salary": 134500
+      },
+      {
+       "skill": "javascript",
+       "share": 0.134,
+       "median_salary": null
+      },
+      {
+       "skill": "git",
+       "share": 0.128,
+       "median_salary": null
+      },
+      {
+       "skill": "linux",
+       "share": 0.115,
+       "median_salary": null
+      },
+      {
+       "skill": "devops",
+       "share": 0.11,
+       "median_salary": null
+      },
+      {
+       "skill": "typescript",
+       "share": 0.108,
+       "median_salary": null
+      },
+      {
+       "skill": "azure",
+       "share": 0.104,
+       "median_salary": null
+      }
+     ]
+    },
+    "Mid / Unspecified": {
+     "postings": 22416,
+     "salaried": 5171,
+     "median_salary": 175000,
+     "top_skills": [
+      {
+       "skill": "python",
+       "share": 0.281,
+       "median_salary": 173500
+      },
+      {
+       "skill": "ci-cd",
+       "share": 0.233,
+       "median_salary": 170000
+      },
+      {
+       "skill": "aws",
+       "share": 0.228,
+       "median_salary": 175000
+      },
+      {
+       "skill": "project-management",
+       "share": 0.228,
+       "median_salary": 147500
+      },
+      {
+       "skill": "sql",
+       "share": 0.224,
+       "median_salary": 174500
+      },
+      {
+       "skill": "communication",
+       "share": 0.187,
+       "median_salary": 180500
+      },
+      {
+       "skill": "kubernetes",
+       "share": 0.178,
+       "median_salary": 176000
+      },
+      {
+       "skill": "devops",
+       "share": 0.169,
+       "median_salary": 162500
+      },
+      {
+       "skill": "java",
+       "share": 0.161,
+       "median_salary": 167500
+      },
+      {
+       "skill": "docker",
+       "share": 0.149,
+       "median_salary": 170000
+      },
+      {
+       "skill": "azure",
+       "share": 0.149,
+       "median_salary": 165000
+      },
+      {
+       "skill": "react",
+       "share": 0.138,
+       "median_salary": 175000
+      },
+      {
+       "skill": "typescript",
+       "share": 0.133,
+       "median_salary": 185000
+      },
+      {
+       "skill": "gcp",
+       "share": 0.124,
+       "median_salary": 170000
+      },
+      {
+       "skill": "product-management",
+       "share": 0.119,
+       "median_salary": 195000
+      }
+     ]
+    },
+    "Principal / Staff": {
+     "postings": 4404,
+     "salaried": 2001,
+     "median_salary": 235000,
+     "top_skills": [
+      {
+       "skill": "python",
+       "share": 0.38,
+       "median_salary": 237500
+      },
+      {
+       "skill": "aws",
+       "share": 0.318,
+       "median_salary": 227500
+      },
+      {
+       "skill": "communication",
+       "share": 0.267,
+       "median_salary": 231200
+      },
+      {
+       "skill": "kubernetes",
+       "share": 0.261,
+       "median_salary": 230200
+      },
+      {
+       "skill": "ci-cd",
+       "share": 0.254,
+       "median_salary": 222500
+      },
+      {
+       "skill": "sql",
+       "share": 0.227,
+       "median_salary": 227500
+      },
+      {
+       "skill": "product-management",
+       "share": 0.219,
+       "median_salary": 230000
+      },
+      {
+       "skill": "java",
+       "share": 0.206,
+       "median_salary": 230000
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.205,
+       "median_salary": 245000
+      },
+      {
+       "skill": "react",
+       "share": 0.195,
+       "median_salary": 230000
+      },
+      {
+       "skill": "llm",
+       "share": 0.187,
+       "median_salary": 245000
+      },
+      {
+       "skill": "typescript",
+       "share": 0.172,
+       "median_salary": 231200
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.168,
+       "median_salary": 238500
+      },
+      {
+       "skill": "gcp",
+       "share": 0.156,
+       "median_salary": 230000
+      },
+      {
+       "skill": "docker",
+       "share": 0.155,
+       "median_salary": 218200
+      }
+     ]
+    },
+    "Senior / Lead": {
+     "postings": 14190,
+     "salaried": 3961,
+     "median_salary": 195000,
+     "top_skills": [
+      {
+       "skill": "ci-cd",
+       "share": 0.344,
+       "median_salary": 190000
+      },
+      {
+       "skill": "python",
+       "share": 0.333,
+       "median_salary": 194600
+      },
+      {
+       "skill": "aws",
+       "share": 0.329,
+       "median_salary": 192800
+      },
+      {
+       "skill": "sql",
+       "share": 0.275,
+       "median_salary": 192400
+      },
+      {
+       "skill": "communication",
+       "share": 0.269,
+       "median_salary": 191100
+      },
+      {
+       "skill": "project-management",
+       "share": 0.253,
+       "median_salary": 173400
+      },
+      {
+       "skill": "kubernetes",
+       "share": 0.243,
+       "median_salary": 193600
+      },
+      {
+       "skill": "java",
+       "share": 0.234,
+       "median_salary": 195000
+      },
+      {
+       "skill": "devops",
+       "share": 0.21,
+       "median_salary": 185000
+      },
+      {
+       "skill": "react",
+       "share": 0.191,
+       "median_salary": 195000
+      },
+      {
+       "skill": "typescript",
+       "share": 0.175,
+       "median_salary": 196500
+      },
+      {
+       "skill": "azure",
+       "share": 0.174,
+       "median_salary": 192800
+      },
+      {
+       "skill": "docker",
+       "share": 0.171,
+       "median_salary": 187500
+      },
+      {
+       "skill": "gcp",
+       "share": 0.17,
+       "median_salary": 198900
+      },
+      {
+       "skill": "product-management",
+       "share": 0.154,
+       "median_salary": 205800
+      }
+     ]
+    }
+   }
+  },
+  "Students & Apprentices": {
+   "postings": 4245,
+   "salaried": 86,
+   "median_salary": 62200,
+   "top_skills": [
+    {
+     "skill": "excel",
+     "share": 0.155,
+     "median_salary": null
+    },
+    {
+     "skill": "project-management",
+     "share": 0.056,
+     "median_salary": null
+    },
+    {
+     "skill": "typescript",
+     "share": 0.056,
+     "median_salary": null
+    },
+    {
+     "skill": "python",
+     "share": 0.054,
+     "median_salary": null
+    },
+    {
+     "skill": "sap",
+     "share": 0.039,
+     "median_salary": null
+    },
+    {
+     "skill": "communication",
+     "share": 0.031,
+     "median_salary": 62500
+    },
+    {
+     "skill": "recruiting",
+     "share": 0.025,
+     "median_salary": null
+    },
+    {
+     "skill": "power-bi",
+     "share": 0.022,
+     "median_salary": null
+    },
+    {
+     "skill": "sql",
+     "share": 0.018,
+     "median_salary": null
+    },
+    {
+     "skill": "robotics",
+     "share": 0.018,
+     "median_salary": null
+    },
+    {
+     "skill": "data-science",
+     "share": 0.017,
+     "median_salary": null
+    },
+    {
+     "skill": "accounting",
+     "share": 0.017,
+     "median_salary": null
+    },
+    {
+     "skill": "machine-learning",
+     "share": 0.016,
+     "median_salary": null
+    },
+    {
+     "skill": "crm",
+     "share": 0.016,
+     "median_salary": null
+    },
+    {
+     "skill": "spark",
+     "share": 0.015,
+     "median_salary": null
+    }
+   ],
+   "by_seniority": {
+    "Entry / Junior": {
+     "postings": 1402,
+     "salaried": 68,
+     "median_salary": 61800,
+     "top_skills": [
+      {
+       "skill": "excel",
+       "share": 0.223,
+       "median_salary": null
+      },
+      {
+       "skill": "project-management",
+       "share": 0.128,
+       "median_salary": null
+      },
+      {
+       "skill": "python",
+       "share": 0.091,
+       "median_salary": null
+      },
+      {
+       "skill": "communication",
+       "share": 0.086,
+       "median_salary": 62500
+      },
+      {
+       "skill": "spark",
+       "share": 0.045,
+       "median_salary": null
+      },
+      {
+       "skill": "accounting",
+       "share": 0.042,
+       "median_salary": null
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.041,
+       "median_salary": null
+      },
+      {
+       "skill": "sap",
+       "share": 0.036,
+       "median_salary": null
+      },
+      {
+       "skill": "sql",
+       "share": 0.034,
+       "median_salary": null
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.033,
+       "median_salary": null
+      },
+      {
+       "skill": "robotics",
+       "share": 0.028,
+       "median_salary": null
+      },
+      {
+       "skill": "sales",
+       "share": 0.027,
+       "median_salary": null
+      },
+      {
+       "skill": "c++",
+       "share": 0.026,
+       "median_salary": null
+      },
+      {
+       "skill": "data-science",
+       "share": 0.026,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.023,
+       "median_salary": null
+      }
+     ]
+    },
+    "Mid / Unspecified": {
+     "postings": 2799,
+     "salaried": 13,
+     "median_salary": null,
+     "top_skills": [
+      {
+       "skill": "excel",
+       "share": 0.121,
+       "median_salary": null
+      },
+      {
+       "skill": "typescript",
+       "share": 0.075,
+       "median_salary": null
+      },
+      {
+       "skill": "sap",
+       "share": 0.041,
+       "median_salary": null
+      },
+      {
+       "skill": "python",
+       "share": 0.035,
+       "median_salary": null
+      },
+      {
+       "skill": "power-bi",
+       "share": 0.022,
+       "median_salary": null
+      },
+      {
+       "skill": "project-management",
+       "share": 0.019,
+       "median_salary": null
+      },
+      {
+       "skill": "recruiting",
+       "share": 0.014,
+       "median_salary": null
+      },
+      {
+       "skill": "robotics",
+       "share": 0.013,
+       "median_salary": null
+      },
+      {
+       "skill": "crm",
+       "share": 0.012,
+       "median_salary": null
+      },
+      {
+       "skill": "data-science",
+       "share": 0.012,
+       "median_salary": null
+      },
+      {
+       "skill": "sql",
+       "share": 0.01,
+       "median_salary": null
+      },
+      {
+       "skill": "vue",
+       "share": 0.008,
+       "median_salary": null
+      },
+      {
+       "skill": "git",
+       "share": 0.007,
+       "median_salary": null
+      },
+      {
+       "skill": "llm",
+       "share": 0.007,
+       "median_salary": null
+      },
+      {
+       "skill": "machine-learning",
+       "share": 0.006,
+       "median_salary": null
+      }
+     ]
+    }
+   }
+  }
+ },
+ "options": {
+  "cities": [
+   "*HQ",
+   "Albany",
+   "Albuquerque",
+   "Alexandria",
+   "Ann Arbor",
+   "Annapolis Junction",
+   "Arizona",
+   "Arlington",
+   "Ashville",
+   "Aspen",
+   "Atlanta",
+   "Auckland",
+   "Aurora",
+   "Austin",
+   "Baltimore",
+   "Baton Rouge",
+   "Bay Area",
+   "Bellevue",
+   "Bentonville",
+   "Berkeley",
+   "Bethesda",
+   "Beverly Hills",
+   "Birmingham",
+   "Blythewood",
+   "Boston",
+   "Bothell",
+   "Boulder",
+   "Brisbane",
+   "Bronx",
+   "Brooklyn",
+   "Broomfield",
+   "Buffalo",
+   "Burbank",
+   "Burlingame",
+   "Burlington",
+   "Calgary",
+   "California",
+   "Cambridge",
+   "Camden",
+   "Carlsbad",
+   "Centennial",
+   "Chantilly",
+   "Charlotte",
+   "Charlottesville",
+   "Chicago",
+   "Cincinnati",
+   "Cleveland",
+   "College Park",
+   "Colorado Springs",
+   "Columbia",
+   "Columbus",
+   "Costa Mesa",
+   "Dallas",
+   "Dayton",
+   "Deerfield",
+   "Del Rey",
+   "Denver",
+   "Detroit",
+   "Devens",
+   "Dublin",
+   "East Syracuse",
+   "Edmonton",
+   "El Paso",
+   "El Segundo",
+   "Englewood Cliffs",
+   "Everett",
+   "Fairfield",
+   "Fayetteville",
+   "Florida",
+   "Fort Collins",
+   "Fort Meade",
+   "Fort Worth",
+   "Foster City",
+   "Fremont",
+   "Frisco",
+   "Glendale",
+   "Golden",
+   "Grand Rapids",
+   "Greenwich",
+   "Hamilton",
+   "Harrisburg",
+   "Hartford",
+   "Hawthorne",
+   "Hayward",
+   "Herndon",
+   "Honolulu",
+   "Houston",
+   "Huntington Beach",
+   "Huntsville",
+   "Hybrid",
+   "Illinois",
+   "Indianapolis",
+   "Irvine",
+   "Irving",
+   "Itasca",
+   "Jacksonville",
+   "Jersey City",
+   "Kansas City",
+   "Kirkland",
+   "Las Vegas",
+   "Lexington",
+   "Littleton",
+   "Livingston",
+   "London",
+   "Long Beach",
+   "Los Angeles",
+   "Louisville",
+   "Madison",
+   "Manhattan",
+   "Marina Del Rey",
+   "Massachusetts",
+   "McHenry",
+   "McLean",
+   "Melbourne",
+   "Menlo Park",
+   "Mentor",
+   "Miami",
+   "Milpitas",
+   "Milwaukee",
+   "Minneapolis",
+   "Mississauga",
+   "Montreal",
+   "Morristown",
+   "Mountain View",
+   "NYC",
+   "Nashville",
+   "Needham",
+   "New Jersey",
+   "New Orleans",
+   "New York",
+   "New York City",
+   "Newark",
+   "North Bethesda",
+   "North Carolina",
+   "North Reading",
+   "Novato",
+   "Novi",
+   "Oakland",
+   "Oakville",
+   "Oklahoma City",
+   "Omaha",
+   "Ontario",
+   "Orlando",
+   "Ottawa",
+   "Overland Park",
+   "Palo Alto",
+   "Paris",
+   "Pasadena",
+   "Pennsylvania",
+   "Philadelphia",
+   "Phoenix",
+   "Pittsburgh",
+   "Playa Vista",
+   "Pleasanton",
+   "Portland",
+   "Princeton",
+   "Queensland",
+   "Quincy",
+   "Quonset",
+   "Raleigh",
+   "Rancho Cordova",
+   "Redlands",
+   "Redmond",
+   "Redwood City",
+   "Reno",
+   "Renton",
+   "Reston",
+   "Richmond",
+   "Rochester",
+   "Rockville",
+   "Roseville",
+   "Sacramento",
+   "Salt Lake City",
+   "San Antonio",
+   "San Carlos",
+   "San Diego",
+   "San Francisco",
+   "San Francisco Bay Area",
+   "San Jose",
+   "San Luis Obispo",
+   "San Mateo",
+   "San Ramon",
+   "Santa Ana",
+   "Santa Clara",
+   "Santa Monica",
+   "Saratoga",
+   "Scottsdale",
+   "Seattle",
+   "Somerset",
+   "Somerville",
+   "South San Francisco",
+   "Springfield",
+   "St. Louis",
+   "Stamford",
+   "Sterling",
+   "Suitland",
+   "Sunnyvale",
+   "Sydney",
+   "Syracuse",
+   "Tampa",
+   "Tempe",
+   "Texas",
+   "Toronto",
+   "Torrance",
+   "Tysons",
+   "Tysons Corner",
+   "USA wide",
+   "United States ()",
+   "Universal City",
+   "Vancouver",
+   "Vienna",
+   "Waltham",
+   "Washington",
+   "West Palm Beach",
+   "Westminster",
+   "Wisconsin",
+   "Woburn",
+   "Woodinville"
+  ],
+  "countries": [
+   "Argentina",
+   "Australia",
+   "Brazil",
+   "Canada",
+   "France",
+   "Germany",
+   "India",
+   "Ireland",
+   "Mexico",
+   "New Zealand",
+   "Singapore",
+   "Spain",
+   "Taiwan",
+   "United Kingdom",
+   "United States"
+  ],
+  "skills": [
+   "accounting",
+   "airflow",
+   "android",
+   "angular",
+   "ansible",
+   "aws",
+   "azure",
+   "bigquery",
+   "blockchain",
+   "c#",
+   "c++",
+   "ci-cd",
+   "communication",
+   "computer-vision",
+   "crm",
+   "customer-success",
+   "data-engineering",
+   "data-science",
+   "databricks",
+   "dbt",
+   "deep-learning",
+   "devops",
+   "django",
+   "docker",
+   "elasticsearch",
+   "embedded",
+   "etl",
+   "excel",
+   "fastapi",
+   "figma",
+   "financial-analysis",
+   "flask",
+   "flutter",
+   "gcp",
+   "gis",
+   "git",
+   "go",
+   "graphql",
+   "grpc",
+   "hadoop",
+   "hardware",
+   "html-css",
+   "hubspot",
+   "ios",
+   "java",
+   "javascript",
+   "kafka",
+   "kotlin",
+   "kubernetes",
+   "legal",
+   "linux",
+   "llm",
+   "looker",
+   "machine-learning",
+   "marketing",
+   "microservices",
+   "next.js",
+   "nlp",
+   "node.js",
+   "nosql",
+   "numpy",
+   "pandas",
+   "php",
+   "power-bi",
+   "product-management",
+   "project-management",
+   "python",
+   "pytorch",
+   "qa-testing",
+   "rabbitmq",
+   "react",
+   "react-native",
+   "recruiting",
+   "redis",
+   "redshift",
+   "rest-api",
+   "robotics",
+   "ruby",
+   "rust",
+   "sales",
+   "salesforce",
+   "sap",
+   "scala",
+   "scikit-learn",
+   "security",
+   "sem",
+   "seo",
+   "serverless",
+   "snowflake",
+   "spark",
+   "spring",
+   "sql",
+   "statistics",
+   "swift",
+   "tableau",
+   "tensorflow",
+   "terraform",
+   "typescript",
+   "ui-ux",
+   "unity",
+   "vue"
+  ],
+  "employment_types": [
+   "Full Time",
+   "Part Time",
+   "Contract",
+   "Internship",
+   "Temporary"
+  ]
+ }
+}
