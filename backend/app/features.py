@@ -118,6 +118,19 @@ def seniority(title) -> str:
     return "Mid / Unspecified"
 
 
+# ── Core job name (this API only; not part of the model) ─────────────────────
+# Level and work-arrangement words are removed so "Senior Data Analyst (Remote)"
+# and "Data Analyst" both reduce to "data analyst" for the skills lookup.
+_LEVEL_WORDS = re.compile(r"\b(senior|sr|junior|jr|lead|principal|staff|entry level|entry|mid level|associate|"
+                          r"head of|i{1,3}|iv|remote|hybrid|contract|intern)\b")
+
+
+def core_title(title) -> str:
+    """Lower-case job name without level or work-arrangement words."""
+    text = _LEVEL_WORDS.sub(" ", _normalize_title(title))
+    return re.sub(r"\s+", " ", text).strip()
+
+
 def model_frame(df: pd.DataFrame) -> pd.DataFrame:
     """Build the exact input table the salary model expects (missing values become "Unknown")."""
     out = pd.DataFrame(index=df.index)
