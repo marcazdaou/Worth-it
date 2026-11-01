@@ -23,7 +23,7 @@ project, so Job Market Analytics and its live dashboard keep running exactly as 
 | `GET /health` | Whether the server is up and which model is loaded |
 | `GET /options` | Dropdown values for the app: cities, countries, skills, employment types |
 | `POST /predict` | Predicted salary and likely range for a job |
-| `GET /skills?title=...` | Top skills and typical pay for the title's role family and level |
+| `GET /skills?title=...` | Top skills and typical pay for the job: matched to one of 418 common job names when the title contains one ("Sr. Data Analyst, Marketing" → *data analyst*), otherwise to its broad role family |
 
 Interactive docs are served at `/docs` once the server is running.
 
@@ -51,6 +51,10 @@ curl -X POST http://localhost:8000/predict \
 
 The range is the model's 80% interval: in testing, the real salary fell inside it 81% of the time.
 
+**About skills:** the skill tags in the data are mostly technical, so for many non-tech jobs (nurse, barista)
+few postings list any. When under half of a job's postings list skills, `/skills` returns no ranking and a
+`note` saying why, instead of a misleading list.
+
 ## Run it locally
 
 Requires Python 3.11+.
@@ -60,7 +64,7 @@ cd backend
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements-dev.txt
-pytest -q                          # 17 tests
+pytest -q                          # 31 tests
 uvicorn app.main:app --reload      # http://localhost:8000/docs
 ```
 
