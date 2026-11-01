@@ -107,15 +107,56 @@ def test_predict_rejects_bad_input(client, body):
 
 
 # ── /skills ──────────────────────────────────────────────────────────────────
+def get_skills(client, title):
+    r = client.get("/skills", params={"title": title})
+    assert r.status_code == 200, r.text
+    return r.json()
+
+
 def test_skills_for_a_data_title(client):
-    body = client.get("/skills", params={"title": "Senior Data Scientist"}).json()
+    body = get_skills(client, "Senior Data Scientist")
     assert body["role_family"] == "Data & AI"
-    assert body["level_used"] == "Senior / Lead"
+    assert body["matched_on"] == "title"
+    assert body["matched_name"] == "data scientist"
     names = [s["skill"] for s in body["top_skills"]]
     assert "python" in names
     shares = [s["share"] for s in body["top_skills"]]
     assert shares == sorted(shares, reverse=True)
     assert all(0 < s <= 1 for s in shares)
+
+
+def test_data_analyst_gets_analyst_skills_not_whole_family(client):
+    # The reason title matching exists: the Data & AI family as a whole ranks machine learning
+    # near the top, but data analyst postings ask for SQL and BI tools.
+    names = [s["skill"] for s in get_skills(client, "Data Analyst")["top_skills"][:5]]
+    assert names[0] == "sql"
+    assert "tableau" in names or "power-bi" in names
+    assert "machine-learning" not in names
+
+
+def test_level_and_extra_words_still_match_the_job_name(client):
+    plain = get_skills(client, "Data Analyst")
+    noisy = get_skills(client, "Sr. Data Analyst, Marketing (Remote)")
+    assert noisy["matched_name"] == plain["matched_name"] == "data analyst"
+    assert noisy["top_skills"] == plain["top_skills"]
+
+
+def test_most_specific_job_name_wins(client):
+    # "Software Engineer" contains "engineer" too; the longer, more specific name must be used.
+    assert get_skills(client, "Software Engineer II")["matched_name"] == "software engineer"
+
+
+def test_unknown_job_falls_back_to_role_family(client):
+    body = get_skills(client, "Quantum Basket Weaver")
+    assert body["matched_on"] == "role_family"
+    assert body["matched_name"] == body["role_family"]
+
+
+def test_jobs_with_few_skill_tags_show_no_ranking(client):
+    body = get_skills(client, "Barista")
+    assert body["skill_coverage"] < 0.5
+    assert body["top_skills"] == []
+    assert body["note"]
 
 
 def test_skills_rejects_short_title(client):

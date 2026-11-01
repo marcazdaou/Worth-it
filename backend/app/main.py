@@ -11,6 +11,7 @@ Endpoints
 """
 import json
 import pickle
+import re
 from contextlib import asynccontextmanager
 from functools import lru_cache
 from pathlib import Path
@@ -22,7 +23,7 @@ from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field, field_validator
 
-from app.features import model_frame, role_family, seniority
+from app.features import core_title, model_frame, role_family, seniority
 
 APP_DIR = Path(__file__).resolve().parent
 MODEL_PATH = APP_DIR / "model" / "salary_model.pkl"
@@ -53,7 +54,7 @@ def load_skills() -> dict:
 @asynccontextmanager
 async def lifespan(_: FastAPI):
     """Load everything at startup so the first request is fast and a broken file fails loudly."""
-    load_model(), load_meta(), load_skills()
+    load_model(), load_meta(), load_skills(), title_patterns()
     yield
 
 
@@ -110,10 +111,15 @@ class SkillsResponse(BaseModel):
     title: str
     role_family: str
     seniority: str
+    matched_on: Literal["title", "role_family"] = Field(
+        ..., description="'title' when a common job name inside the title was found, else the broad role family")
+    matched_name: str = Field(..., description="The job name or role family the numbers describe")
     level_used: str
     postings: int
     median_salary: int | None
+    skill_coverage: float = Field(..., description="Share of these postings that list any skill")
     top_skills: list[SkillItem]
+    note: str | None = None
 
 
 # ── Routes ───────────────────────────────────────────────────────────────────
@@ -161,19 +167,44 @@ def predict(req: PredictRequest) -> PredictResponse:
     )
 
 
+MIN_SKILL_COVERAGE = 0.5  # below this, too few postings list skills for the list to mean anything
+
+
+@lru_cache(maxsize=1)
+def title_patterns() -> list[tuple[str, re.Pattern]]:
+    """Known job names, most specific (most words, then longest) first."""
+    names = sorted(load_skills()["titles"], key=lambda n: (-len(n.split()), -len(n)))
+    return [(name, re.compile(rf"\b{re.escape(name)}\b")) for name in names]
+
+
+def match_title(title: str) -> str | None:
+    """The most specific known job name contained in the title ("data analyst" in "Sr Data Analyst, Marketing")."""
+    core = core_title(title)
+    return next((name for name, pattern in title_patterns() if pattern.search(core)), None)
+
+
 @app.get("/skills", response_model=SkillsResponse)
 def skills(title: str = Query(..., min_length=2, max_length=120)) -> SkillsResponse:
     title = title.strip()
     if len(title) < 2:
         raise HTTPException(status_code=422, detail="title must have at least 2 characters")
     family, level = role_family(title), seniority(title)
-    families = load_skills()["families"]
-    if family not in families:
+    data_file = load_skills()
+
+    name = match_title(title)
+    if name:
+        data, matched_on, matched_name, level_used = data_file["titles"][name], "title", name, "All levels"
+    elif family in data_file["families"]:
+        entry = data_file["families"][family]
+        by_level = entry["by_seniority"].get(level)
+        data, level_used = (by_level, level) if by_level else (entry, "All levels")
+        matched_on, matched_name = "role_family", family
+    else:
         raise HTTPException(status_code=404, detail=f"Not enough postings for the '{family}' role family.")
 
-    entry = families[family]
-    by_level = entry["by_seniority"].get(level)
-    data, level_used = (by_level, level) if by_level else (entry, "All levels")
-    return SkillsResponse(title=title, role_family=family, seniority=level, level_used=level_used,
-                          postings=data["postings"], median_salary=data["median_salary"],
-                          top_skills=data["top_skills"])
+    reliable = data["skill_coverage"] >= MIN_SKILL_COVERAGE
+    return SkillsResponse(
+        title=title, role_family=family, seniority=level, matched_on=matched_on, matched_name=matched_name,
+        level_used=level_used, postings=data["postings"], median_salary=data["median_salary"],
+        skill_coverage=data["skill_coverage"], top_skills=data["top_skills"] if reliable else [],
+        note=None if reliable else "Few postings for this job list skills, so no skill ranking is shown.")
